@@ -1,18 +1,7 @@
 \providecommand{\documentclassflag}{}
-\documentclass[12pt,\documentclassflag]{lawbrief} 
+\documentclass[12pt,\documentclassflag]{FRAP_Brief} 
 
-\usepackage[margin=1in]{geometry}
-\usepackage{newcent,microtype}
-\usepackage{setspace,xcolor}
-\usepackage[hyperindex=false,linkbordercolor=white,pdfborder={0 0 0}]{hyperref}
-\usepackage{trace}
 
-%%Citations
-
-%The command \makeandletter turns the ampersand into a printable character, rather than a special alignment tab
-\makeandletter
-%The command \makeatletter makes the at sign a normal letter rather than in the category of other.
-\makeatletter
 
 %We use \newcase because the \emph will throw off parsing in \citecase
 \newcase{Hosanna-Tabor I}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School \emph{(Hosanna-Tabor I)}}
@@ -63,40 +52,42 @@
 
 
 %Set the information for the title page (later produced by \makefrontmatter)
-\docket{No. 10-553} 
-\petitioner{Hosanna-Tabor Evangelical Lutheran Church and School}
-\respondents{Equal Employment Opportunity Commission, \emph{et al.}}
-\circuit{Sixth}
-\brieffor{Petitioner}
-\author{Anonymous \# 939\\{\em Counsel for Petitioner}}
-\address{127 Wall Street \\ New Haven, CT 06510\\ (203) 555-1234}
+\docket{No. 21-1234} 
+\petitioner{Hosanna-Tabor Evangelical Church and School}
+\respondent{Equal Opportunity Employment Commission}
+\briefposture{On Remand from the \\ Supreme Court of the United States}
+\nameofbrief{Brief for Petitioner}
+\author{Brendan Bernicker}
+\authorrole{Counsel for Petitioner}
+\address{127 Wall Street \\ New Haven, CT 06510\\ (610) 203-0293\\ brendan.bernicker@yale.edu}
 
-\questionpresented{{ Out of deference to the separation of church and state, courts refuse to question churches' decisions to hire or fire ministers. Is a commissioned minister excluded from this ``ministerial exception'' on the grounds that her ministry included teaching secular subjects in the church's school? \doublespacing\par }}
+\questionpresented{{Out of deference to the separation of church and state, courts refuse to question churches' decisions to hire or fire ministers. Is a commissioned minister excluded from this ``ministerial exception'' on the grounds that her ministry included teaching secular subjects in the church's school? \doublespacing\par}}
+
+
 
 \begin{document}
 %This commands creates the title page, table of contents, and table of authorities
 \makefrontmatter
 
 %Sets the formatting for the entire document after the front matter
-\parindent=2.5em 
+\parindent=2em 
 \setlength{\parskip}{1.25ex plus 2ex minus .5ex} 
-\setstretch{1.45}  
+\setstretch{2}  
 
 \section{List of All Parties}
 
-Petitioner Hosanna-Tabor Evangelical Lutheran Church and School is a Michigan Ecclesiastical Corporation.  \vspace{12pt} 
+Petitioner Hosanna-Tabor Evangelical Lutheran Church and School is a Michigan Ecclesiastical Corporation.
 
-\noindent{}Respondent Equal Employment Opportunity Commission (EEOC) is a federal agency charged with the enforcement of Title I of the Americans with Disabilities Act and is expressly authorized to bring such actions. \citetext{\See 42 U.S.C. \S\S 12117(a) and 12203(c).}%
-\pincite[!]{42 USC}{\S 12117}\pincite[!]{42 USC}{\S 12203}%
+Respondent Equal Employment Opportunity Commission (EEOC) is a federal agency charged with the enforcement of Title I of the Americans with Disabilities Act and is expressly authorized to bring such actions. \citetext{\See 42 U.S.C. \S\S 12117(a) and 12203(c).}%
+\pincite[!]{42 USC}{\S 12117}\pincite[!]{42 USC}{\S 12203} %
 % \index{Statute}{bb@Title 42, United States Code !\S 12117} \index{Statute}{bb@Title 42, United States Code !\S 12203}
-\vspace{12pt} 
 
-\noindent{}Respondent Cheryl Perich is a resident of the State of Michigan.  
+Respondent Cheryl Perich is a resident of the State of Michigan.
 
 \section{Opinions Below} 
-\begin{flushleft}
+
 The District Court for the Eastern District of Michigan (Duggan, J.) dismissed the action upon the Defendant Hosanna-Tabor's motion. \citetext{\See 582 F. Supp. 2d 881.} Subsequently, the district court denied a motion for rehearing. \citetext{\See 2008 WL 5111861.} The Court of Appeals for the Sixth Circuit reversed. \citetext{\See 597 F.3d 769.}
-\end{flushleft}
+
 
 \section{Jurisdiction} 
 The judgment of the Court of Appeals was entered on March 29, 2010. The petition for writ of certiorari was filed on October 22, 2010, and was granted on March 28, 2011. This Court has jurisdiction under
@@ -108,7 +99,7 @@ This case implicates the Establishment and Free Exercise Clauses of the First Am
 
 \section{Background} 
 
-Petitioner Hosanna-Tabor Evangelical Lutheran Church and School (``The Church'') is a Lutheran church community centered on living out the Word of God as expressed through the Gospels. The Church is a member of the Lutheran Church---Missouri Synod (LCMS), the oldest Lutheran denomination in the United States.  As part of its ministry, Hosanna-Tabor provides a Christ-centered elementary school, which helps parents reinforce biblical principles and standards. \See \HTDist{884}.  As the district court noted, ``Hosanna-Tabor also characterizes its staff members as ``fine Christian role models who integrate their faith into all subjects.'\,'' \HTDist{884}. 
+Petitioner Hosanna-Tabor Evangelical Lutheran Church and School (``The Church'') is a Lutheran church community centered on living out the Word of God as expressed through the Gospels. The Church is a member of the Lutheran Church---Missouri Synod (LCMS), the oldest Lutheran denomination in the United States.\footnote{Petitioner Hosanna-Tabor Evangelical Lutheran Church and School (``The Church'') is a Lutheran church community centered on living out the Word of God as expressed through the Gospels.\par The Church is a member of the Lutheran Church---Missouri Synod (LCMS), the oldest Lutheran denomination in the United States.} As part of its ministry, Hosanna-Tabor provides a Christ-centered elementary school, which helps parents reinforce biblical principles and standards. \See \HTDist{884}.  As the district court noted, ``Hosanna-Tabor also characterizes its staff members as ``fine Christian role models who integrate their faith into all subjects.'\,'' \HTDist{884}. 
 
 \subsection{Duties and Expectations of Teachers at Hosanna-Tabor}
 
@@ -241,11 +232,11 @@ Finally, as the district court found, there was no subterfuge in this case on th
 
 \section{Conclusion}
 
-The judgment of the Court of Appeals should be reversed.
-\vspace{.3in}
+\noindent{}The judgment of the Court of Appeals should be reversed.\\
 
 \makeatletter
-\mbox{\hspace{3.5in} \vbox{\raggedright Respectfully Submitted, \\ \@author \\ October 12, 2011}}
+\mbox{\hspace{2.75in} \vbox{\raggedright \onehalfspacing Respectfully Submitted, \\ ~\\ ~\\ \@author \\ \textit{\@authorrole} \\ ~\\ \today}}
 \makeatother
+
 
 \end{document}
