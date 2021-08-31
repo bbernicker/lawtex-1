@@ -42,6 +42,10 @@
 \RequirePackage[hyperindex=false,linkbordercolor=white,pdfborder={0 0 0}]{hyperref}
 \RequirePackage{trace}
 \RequirePackage{footmisc}
+\RequirePackage{tokcycle}[2021-03-10]
+\RequirePackage{xcolor}
+\RequirePackage[group-separator={,},group-minimum-digits=4]{siunitx}
+
 
 \makeandletter
 \makeatletter
@@ -118,10 +122,10 @@
 	\ifnum\value{@passimcount}=1%
 		\edef\@pagenums{#1}%
 	\else% 
-		\ifnum\value{@passimcount}<\passimlimit%
-			\edef\@pagenums{\@pagenums#1}%
-		\else
+		\ifnum\value{@passimcount}>\passimlimit%
 			\def\@pagenums{\emph{passim}}%
+		\else
+			\edef\@pagenums{\@pagenums, #1}%		
 		\fi%
 	\fi%
 	\IfSubStr{#1}{passim}{\setcounter{@passimcount}{\passimlimit}\def\@pagenums{\emph{passim}}}{}%
@@ -388,9 +392,13 @@
 \newcommand{\court}[1]{\def\@court{#1}}
 \newcommand*{\briefposture}[1]{\def\@briefposture{#1}}
 \newcommand*{\nameofbrief}[1]{\def\@nameofbrief{#1}}
-\newcommand{\address}[1]{\def\@address{#1}}
+\newcommand{\authoraddress}[1]{\def\@authoraddress{#1}}
 \newcommand{\authorrole}[1]{\def\@authorrole{#1}}
+\newcommand{\authorfirm}[1]{\def\@authorfirm{#1}}
+\newcommand{\authorphone}[1]{\def\@authorphone{#1}}
+\newcommand{\authoremail}[1]{\def\@authoremail{#1}}
 \newcommand*{\titlegraphic}[1]{\def\@titlegraphic{#1}}
+\newcommand*{\filingdate}[1]{\def\@filingdate{#1}}
 
 \def\@firstparty{\@latex@warning@no@line{No \noexpand\firstparty given}}
 \def\@firstpartytitle{Plaintiff}
@@ -406,14 +414,14 @@
 \def\@address{\@latex@warning{No \noexpand\address given}}
 \def\@titlegraphic{SupremeCourt.pdf}
 
-\newcommand{\questionpresented}[1]{\def\@questionpresented{#1}}
+\newcommand{\disclosurestatement}[1]{\def\@disclosurestatement{#1}}
+\newcommand{\disclosurestatementrequired}[1]{\def\@disclosurestatementrequired{#1}}
 
 \renewcommand{\maketitle}{\makesupremetitle}
 
 \newcommand{\makesupremetitle}{%
 \setlength{\parskip}{2ex plus 1ex minus .5ex}
-\vfill ~
-\vspace{-10pt}
+
 \begin{center}
 \thispagestyle{empty}
 \linespread{1.3}
@@ -427,7 +435,7 @@
 \large
 \textit{for the}\\
 \Large
-\textsc{First Circuit}\\
+\textsc{\@circuit \ Circuit}\\
 
 \smallrule
 
@@ -439,7 +447,7 @@
 \textsc{\@secondparty}\\
 \textit{\@secondpartytitle}\\
 \smallrule \\
-\vspace{8pt}
+\vspace{7pt}
 \textit{\@briefposture{}}\\
 
 \smallrule\\
@@ -458,9 +466,10 @@
 
 \@author \\
 \textit{\@authorrole}\\
-\textsc{Yale Law School}\\ %name of organization/firm using template
-\@address
-~\\
+\textsc{\@authorfirm}\\ %name of organization/firm using template
+\@authoraddress\\
+\@authorphone\\
+\@authoremail\\
 
 \endgroup
 
@@ -516,13 +525,16 @@
 \newcommand{\makefrontmatter}{
 \maketitle
 
+\ifthenelse{\@disclosurestatementrequired = 1}{
 \pagestyle{romanparen}
 \pagenumbering{roman}
-\section{Question Presented}
+\section{Disclosure Statement}
 \large
-\@questionpresented
-\newpage
+\doublespacing
+\@disclosurestatement
+\newpage}{}
 
+\onehalfspacing
 \section*{Table of Contents}
 \tableofcontents
 \newpage
@@ -554,6 +566,39 @@
 	%Output a fill, then the box
 	\hskip 0pt plus 1.0fill \box\testbox \egroup }
 
+
+
+
+
+
+%==============================================================================
+% Creating End Matter with Signature Block and Certificates
+%==============================================================================
+
+\newcommand{\makeendmatter}{
+\makeatletter
+\mbox{\hspace{2.75in} \vbox{\raggedright \onehalfspacing Respectfully Submitted, \\ ~\\ \rule{2.75in}{.5pt}\\ \@author \\ \textit{\@authorrole} \\ ~\\ \today}}
+\makeatother
+\newpage
+\section{Certificate of Compliance}
+This document complies with the type-volume limit of Fed. R. App. P. 32(a)(7)(B) because, excluding the parts of the document exempted by Fed. R. App. P. 32(f), it contains \thewordcount{} words.\par
+This document complies with the typeface requirements of Fed. R. App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document complies with the type-style requirements of Fed. R. App. P. 32(a)(6) because it is set in a plain roman typeface except as permitted by that rule. This document was prepared in \LaTeX.\\
+\makeatletter
+~\\
+\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
+\makeatother
+\newpage
+\section{Certificate of Service}
+I hereby certify that I filed the foregoing brief with the Clerk of the United States Court of Appeals for the \@circuit \ Circuit via the appellate CM/ECF system this \@filingdate. Counsel for all parties to the case are registered CM/ECF users and will be served by the appellate CM/ECF system.
+\makeatletter
+~\\
+~\\
+\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
+\makeatother
+}
+
+
+
 %==============================================================================
 % Misc Default Settings
 %==============================================================================
@@ -574,8 +619,6 @@
 \def\footnoterule{
 \kern 0.1in \hrule width 1.5in \kern 0.05in
 \kern 0.1in} 
-
-
 
 
 % vim: set syntax=tex :
