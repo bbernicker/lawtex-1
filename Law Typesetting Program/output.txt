@@ -1,0 +1,598 @@
+No. 21-1234
+
+IN
+
+THE
+
+U NITED S TATES C OURT
+
+OF
+
+A PPEALS
+
+for the
+
+F IRST C IRCUIT
+
+H OSANNA -T ABOR E VANGELICAL C HURCH AND S CHOOL
+Petitioner
+v.
+E QUAL O PPORTUNITY E MPLOYMENT C OMMISSION
+Respondent
+
+On Remand from the
+Supreme Court of the United States
+
+Brief for Petitioner
+
+Brendan Bernicker
+Counsel for Petitioner
+YALE L AW S CHOOL
+127 Wall Street
+New Haven, CT 06510
+(610) 203-0293
+brendan.bernicker@yale.edu
+
+
+
+TABLE OF C ONTENTS
+Table of Authorities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iv
+Reasons Why Oral Argument [Should/Need Not] Be Heard . . . . . . 1
+Jurisdictional Statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Statement of the Issues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Statement of the Case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Summary of Argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+A.
+
+Standard of Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+B.
+
+The Ministerial Exception . . . . . . . . . . . . . . . . . . . . . . . . 7
+1.
+
+The Ministerial Exception is a necessary consequence
+
+of the First Amendment’s guarantee of Freedom of Religion
+2.
+
+8
+
+Courts violate the First Amendment when they attempt
+
+to determine the proper activities or necessary qualifications
+of ministers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+3.
+
+“Ministers” are those persons held out by churches as
+
+such . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+C.
+
+Ms. Perich was titled a minister of the Hosanna-Tabor
+
+Church, accepted her ministry, and thus was a minister for the
+purpose of the exception . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+2
+
+
+
+Certificate of Compliance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Certificate of Service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+3
+
+
+
+TABLE OF A UTHORITIES
+C ASES
+
+Page
+
+Arbaugh v. Y&H Corp., 546 U.S. 500 (2006) . . . . . . . . . . . . . . . 6
+E.E.O.C. v. Catholic Univ. of America,
+83 F.3d 455 (D.C. Cir. 1996) . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Elvig v. Calvin Presbyterian Church,
+375 F. 3d 951 (9th Cir. 2004) . . . . . . . . . . . . . . . . . . . . . . . . 7
+Everson v. Bd. of Ed. of Ewing, 330 U.S. 1 (1947) . . . . . . . . . passim
+E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and
+School (Hosanna-Tabor I), 582 F. Supp. 2d 881 (E.D. Mich.
+2008) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2, 13, 16, 18
+E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and
+School (Hosanna-Tabor II),
+597 F.3d 769 (6th Cir. 2010) . . . . . . . . . . . . . . . . . . 5, 6, 11, 12
+Kedroff v. St. Nicholas Cathedral of the Russian Orthodox
+Church in North America, 344 U.S. 94 (1952) . . . . . . . . . . . . . 9
+Larson v. Valente, 456 U.S. 228 (1982) . . . . . . . . . . . . . . . . . . 14
+Lewis v. Seventh Day Adventists Lake Region Conf.,
+978 F.2d 940 (6th Cir. 1992) . . . . . . . . . . . . . . . . . . . . . . . . . 8
+McClure v. Salvation Army, 460 F.2d 553 (5th Cir. 1972) . . . . . . . 7
+Serbian Eastern Orthodox Diocese for the USA and Canada v.
+Milivojevich, 426 U.S. 696 (1976) . . . . . . . . . . . . . . . . . passim
+Natal v. Christian and Missionary Alliance,
+878 F.2d 1575 (1st Cir. 1989) . . . . . . . . . . . . . . . . . . . . . . . . 8
+Petruska v. Gannon Univ.,
+462 F.3d 294 (3d Cir. 2006) . . . . . . . . . . . . . . . . . . . . . . . 7, 16
+Presbyterian Church v. Hull Church, 393 U.S. 440 (1969) . . . . . . . 9
+(iv)
+
+
+
+C ASES —C ONTINUED
+
+Page
+
+Rweyemamu v. Cote, 520 F.3d 198 (2d Cir. 2008) . . . . . . . . . . . . . 7
+Thomas v. Review Bd., 450 U.S. 707 (1981) . . . . . . . . . . . . . . . 12
+Walz v. Tax Comm’n of City of New York,
+397 U.S. 664 (1970) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3, 9
+
+Watson v. Jones, 80 U.S. 679 (1872) . . . . . . . . . . . . . . . . . . . . 10
+
+C ONSTITUTIONAL P ROVISIONS, S TATUTES AND R ULES
+U.S. C ONST. amend. I
+
+.............................. 1
+
+Title 28, United States Code
+§ 1254(1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Federal Rules of Civil Procedure
+Rule 12(b)(1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Rule 56 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+O THER AUTHORITIES
+Note, The Ministerial Exception To Title VII: The Case for a
+Deferential Primary Duties Test,
+121 Harv. L. Rev. 1776 (2009) . . . . . . . . . . . . . . . . . . . . . . 14
+
+(v)
+
+
+
+R EASONS W HY O RAL A RGUMENT [S HOULD /N EED N OT ] B E
+H EARD
+The petitioner does not believe that oral argument would assist the
+Court in resolving this case.
+
+J URISDICTIONAL S TATEMENT
+The judgment of the Court of Appeals was entered on March 29,
+2010. The petition for writ of certiorari was filed on October 22, 2010,
+and was granted on March 28, 2011. This Court has jurisdiction under
+Title 28, United States Code§ 1254(1).
+
+S TATEMENT OF THE I SSUES
+This case implicates the Establishment and Free Exercise Clauses
+of the First Amendment of the U.S. Constitution: “Congress shall make
+no law respecting an establishment of religion, or prohibiting the free
+exercise thereof. . . .”
+
+1
+
+
+
+S TATEMENT OF THE C ASE
+Petitioner Hosanna-Tabor Evangelical Lutheran Church and School
+(“The Church”) is a Lutheran church community centered on living out
+the Word of God as expressed through the Gospels. The Church is a
+member of the Lutheran Church—Missouri Synod (LCMS), the oldest
+Lutheran denomination in the United States.1 As part of its ministry,
+Hosanna-Tabor provides a Christ-centered elementary school, which
+helps parents reinforce biblical principles and standards. See E.E.O.C.
+v. Hosanna-Tabor Evangelical Lutheran Church and School (HosannaTabor I), 582 F. Supp. 2d 881, 884 (E.D. Mich. 2008). As the district
+court noted, “Hosanna-Tabor also characterizes its staff members as
+“fine Christian role models who integrate their faith into all subjects.’ ”
+Id.
+
+1
+
+Petitioner Hosanna-Tabor Evangelical Lutheran Church and School
+(“The Church”) is a Lutheran church community centered on living out
+the Word of God as expressed through the Gospels. Describing The
+Church in more words will help me to ensure that footnote text is being
+included in the word count.
+The Church is a member of the Lutheran Church—Missouri Synod
+(LCMS), the oldest Lutheran denomination in the United States.
+
+2
+
+
+
+S UMMARY OF A RGUMENT
+The First Amendment provides that “Congress shall make no law
+respecting an establishment of religion, or prohibiting the free exercise
+thereof.” The Establishment and Free Exercise Clauses are rooted in the
+Founders’ understanding that “the best interest of a society require[s]
+that the minds of men always be wholly free.” Everson v. Bd. of Ed. of
+Ewing, 330 U.S. 1, 12 (1947). Therefore, these Religion Clauses prohibit the “excessive entanglement” of church and state. See Walz v.
+Tax Comm’n of City of New York, 397 U.S. 664, 670 (1970). In particular, “there is substantial danger that the State will become entangled
+in essentially religious controversies or intervene on behalf of groups
+espousing particular doctrinal beliefs” when hearing internal church
+disputes. Serbian Eastern Orthodox Diocese for the USA and Canada v.
+Milivojevich, 426 U.S. 696, 709 (1976). Therefore, lower courts have developed the “ministerial exception,” by which the courts will not examine
+a church’s decision to hire or fire its ministers.
+This case turns on whether the Respondent, Cheryl Perich, was
+a minister of Hosanna-Tabor Church and School. She was. However,
+3
+
+
+
+the Court of Appeals relied on a “primary duties” to reach the opposite
+conclusion. This conclusion was contrary to the facts. They should have
+recognized that their numerical balancing test on the “primary duties”
+was based on the improper determination that certain activities are
+“non-religious” (improper because it was outside of the subject-matter
+jurisdiction of the courts). The Court should take a more formalistic,
+bright-line rule.
+The Petitioner maintains that when a church has held out to the
+public that a person is their minister, and that person accepts that
+designation, the person is a minister for the purpose of the exception.
+Unlike religious matters, courts are well-suited to determine whether
+the parties agreed to assume a binding relationship between one another.
+In this case, the Church repeatedly designated Ms. Perich as a
+“minister.” She was sent diplomas, letters, and other forms attesting to
+this status. And she also accepted the offer, without coercion, and took
+advantage of the benefits. For example, she relied on a loan guarantee
+that is only available to those engaged in ministry. Therefore, she should
+4
+
+
+
+be bound by her bargain, and viewed by this Court as the minister that
+she once claimed to be.
+
+A RGUMENT
+A.
+
+Standard of Review
+The parties contest the appropriate standard of review regarding
+
+the ministerial exception. Petitioner Hosanna-Tabor requests this Court
+to consider the claim as a challenge to subject-matter jurisdiction, cf.
+Fed. R. Civ. P.12(b)(1), as did both the district court and the Court of
+Appeals. Thus the legal conclusions of the lower courts are reviewed de
+novo, and factual findings are affirmed unless clearly erroneous. See
+E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School
+(Hosanna-Tabor II), 597 F.3d 769, 776 (6th Cir. 2010).
+The district court’s judgment was not specifically in response to a
+12(b)(1) motion. Instead, the court issued its judgment in response to a
+Rule 56 motion for summary judgment. Typically, an entry of summary
+judgment is appropriate when “there is no genuine dispute as to any
+
+5
+
+
+
+material fact and the movant is entitled to judgment as a matter of law.”
+Fed. R. Civ. P.56.
+However, Sixth Circuit precedent views the ministerial exception
+as jurisdictional. See Hosanna-Tabor II, 597 F.3d at 775. A challenge
+to subject-matter jurisdiction cannot be waived, and may be considered
+by the court sua sponte at any point during the litigation. See Arbaugh
+v. Y&H Corp., 546 U.S. 500, 514 (2006). In contrast to a motion for
+summary judgment or a 12(b)(6) motion to dismiss, on a 12(b)(1) motion
+a court must make such findings of fact as are necessary to establish
+jurisdiction. See id. Everson, 330 U.S. at 13
+The Sixth Circuit was correct to view the ministerial exception as
+a jurisdictional challenge. The ministerial exception is a recognition
+by secular courts of their incompetence to judge the qualifications of
+religious ministers. The Constitution accordingly placed such matters
+outside of those courts’ subject-matter jurisdiction. Cf. Milivojevich, 426
+U.S. at 713(“religious controversies are not the proper subject of civil
+court inquiry”). Therefore, once a party has asserted the ministerial
+
+6
+
+
+
+defense, a court must determine such facts as are necessary to determine
+if it has jurisdiction over the matter, and must recuse itself if it does not.
+B.
+
+The Ministerial Exception
+“The relationship between an organized church and its ministers
+
+is its lifeblood,” as the Fifth Circuit recognized 40 years ago in one of
+the initial cases on the ministerial exception. McClure v. Salvation
+Army, 460 F.2d 553, 560 (5th Cir. 1972). “The minister is the chief
+instrument by which the church seeks to fulfill its purpose.” Id. at 561.
+Moreover, “[a] minister is not merely an employee of the church; she
+is the embodiment of its message.” Petruska v. Gannon Univ., 462
+F.3d 294, 306 (3d Cir. 2006). “A minister serves as the church’s public
+representative, its ambassador, and its voice to the faithful.” Id.
+Since McClure, all of the circuits have followed the Fifth Circuit to
+hold that, given the special nature of the church–minister relationship,
+they will not examine a church’s decisions to hire or fire its ministers,
+even if the church may have violated employment laws. See, e.g., Rweyemamu v. Cote, 520 F.3d 198 (2d Cir. 2008); Petruska; Elvig v. Calvin
+Presbyterian Church, 375 F. 3d 951 (9th Cir. 2004); E.E.O.C. v. Catholic
+7
+
+
+
+Univ. of America, 83 F.3d 455 (D.C. Cir. 1996); Lewis v. Seventh Day
+Adventists Lake Region Conf., 978 F.2d 940 (6th Cir. 1992); Natal v.
+Christian and Missionary Alliance, 878 F.2d 1575 (1st Cir. 1989).
+1.
+
+The Ministerial Exception is a necessary consequence of the First
+Amendment’s guarantee of Freedom of Religion
+
+This ministerial exception, however, is not merely a prudential
+doctrine of judicial restraint, but a necessary consequence of the Constitution’s commitment to religious freedom. Cf. U.S. C ONST. amend. I
+(“Congress shall make no law respecting an establishment of religion,
+or prohibiting the free exercise thereof. . .”). While this Court has not
+spoken directly to the ministerial exception, the doctrine follows directly
+from this Court’s interpretation of the Establishment and Free Exercise
+Clauses.
+As this Court has observed, the Religion Clauses derive from the
+Framers’ recognition “that the best interest of a society require[s] that
+the minds of men always be wholly free; and that cruel persecutions
+were the inevitable result of government-established religions.” Everson,
+330 U.S. at 12. But this Court has also recognized that churches can
+8
+
+
+
+and should play a vital and vigorous role in American society, such that
+the Constitution’s aim is not to sever Church and State completely, but
+merely to attempt to preserve their exclusive spheres. See Walz, 397
+U.S. at 670(“No perfect or absolute separation is really possible; the very
+existence of the Religion Clauses . . . seeks to mark boundaries to avoid
+excessive entanglement.”).
+Particularly when adjudicating internal church disputes, “there
+is substantial danger that the State will become entangled in essentially religious controversies or intervene on behalf of groups espousing
+particular doctrinal beliefs.” Milivojevich, 426 U.S. at 709. Everson,
+330 U.S. at 15. Because of this danger, “the First Amendment severely
+circumscribes the role that civil courts may play” in such matters. Presbyterian Church v. Hull Church, 393 U.S. 440, 449 (1969). Neither the
+civil courts—nor any other arm of government—may interfere with a
+church’s right to choose ministers as they see fit. See Kedroff v. St.
+Nicholas Cathedral of the Russian Orthodox Church in North America,
+344 U.S. 94, 154–55 (1952)(“Freedom to select the clergy . . . must now
+be said to have federal constitutional protection as a part of the free
+
+9
+
+
+
+exercise of religion”).
+Thus, when disputes have arisen between church officials, this
+Court has refused to wade into the conflict, and has rebuked the lower
+courts for doing so. For example, when a Serbian Orthodox bishop
+challenged his removal by his Yugoslavia-based Mother Church as arbitrary, this Court chided the lower court for “an impermissible rejection
+of the decisions of the highest ecclesiastical tribunals . . . and impermissibly substituting its own inquiry into church polity.” Milivojevich,
+426 U.S. at 708. To permit such civil courts to probe into church law
+“would violate the First Amendment in much the same manner as civil
+determination of religious doctrine.” Id. at 709.
+In fact, it had long been established that “whenever the questions
+of discipline . . . or law have been decided by the highest of these church
+judicatories to which the matter has been carried, the legal tribunals
+must accept such decisions as final.” Watson v. Jones, 80 U.S. 679, 727
+(1872). The Milivojevich Court then explicitly went on to repudiate
+any exception for “arbitrariness,” or upon a claim that the church had
+failed to follow its own procedures. 713(“recognition of such an exception
+10
+
+
+
+would undermine the general rule that . . . a civil court must accept the
+ecclesiastical decisions of church tribunals as it finds them”).
+The ministerial exception, therefore, derives from this general deference to the internal workings of church procedures. Were the courts
+to inquire into the reasons for why a minister was fired—whether for
+doctrinal reasons or behavior prohibited under the ADA—they would
+subvert a religion’s right to their own internal self-government. Cf.
+id. at 724–25(“the First [ ] Amendment permit[s] hierarchical religious
+organizations to establish their own rules and regulations for internal
+discipline . . . and to create tribunals for adjudicating disputes over these
+matters”).
+2.
+
+Courts violate the First Amendment when they attempt to determine
+the proper activities or necessary qualifications of ministers
+
+All parties here agree that Hosanna-Tabor Church and School is
+a religious organization, as required by the ministerial exception. See
+Hosanna-Tabor II, 597 F.3d at 778. Their dispute is strictly over whether
+Ms. Perich was a “minister” for the purpose of the exception. See
+id. However, any test that attempts to form classifications based on
+11
+
+
+
+their interpretation of religious doctrine will inevitably lead courts to
+impermissibly entangle themselves in religion.
+The Court of Appeals decided that Perich was not a minister using
+their “primary duties test.” They relied on the finding of the district
+court that Ms. Perich only spent roughly 45 minutes of a seven-hour
+school day on strictly “religious” activities. Id. at 779. But this Court
+has noted that “[t]he determination of what is a ‘religious’ [ ] practice
+is more often than not a difficult and delicate task.” Thomas v. Review
+Bd., 450 U.S. 707, 714 (1981). In fact, the role of a teaching minister in
+a Christian school is to imbue the Word of God into her entire educational mission. Thus the Court of Appeals erred in attempting to divide
+Perich’s day into “religious” and “non-religious” activities. As Justice
+Jackson noted, the parochial school experience as a whole—not merely
+the “religious” parts—can be foundational for a child’s religious upbringing. See Everson, 330 U.S. at 24(Jackson, J., dissenting) (“I should be
+surprised if any Catholic would deny that the parochial school is a vital, if not the most vital, part of the Roman Catholic Church. Catholic
+education is the rock on which the whole structure rests.”).
+
+12
+
+
+
+When the Court of Appeals classified Ms. Perich’s service as nonreligious, and asserted that no meaningful distinction exists between
+called and lay teachers, they issued their own judgment on a matter of
+Lutheran doctrine. As the district court noted, the Church “does not give
+the title to just any teacher.” Hosanna-Tabor I, 582 F. Supp. 2d at 891.
+“That Hosanna-Tabor distinguishes between ‘lay’ and ‘called’ teachers
+by awarding the commissioned minister title suggests that the school
+values the latter employees as ministerial, even if some courts would
+not.” Id. The Court of Appeals is not qualified to substitute its judgment
+for that of Church authorities regarding the religious significance of Ms.
+Perich’s call.
+It would also be error, as Respondents have previously suggested,
+to limit the exception to ordained ministers, as opposed to commissioned
+ministers such as Ms. Perich. Such a rule would be tantamount to
+a claim that “ordination,” as such, is a requirement for ministry. Not
+only is such claim itself an encroachment on the freedom of the church
+to define its own doctrine, but would require judicial examination of
+the validity of the ordination of the individual member in question.
+
+13
+
+
+
+Such decisions are outside of the competence of the secular courts, and
+therefore out of their jurisdiction.
+Moreover, some religions ordain all members (such as Jehovah’s
+Witnesses, who consider all members ordained by baptism) and some
+religions do not formally ordain at all (such as the Quakers). See Note,
+The Ministerial Exception To Title VII: The Case for a Deferential Primary Duties Test, 121 Harv. L. Rev. 1776, 1797 (2009). Accordingly,
+an ordination test would impermissibly prefer certain denominations
+based upon their creed. Cf. Larson v. Valente, 456 U.S. 228, 246–47
+(1982)(“when we are presented with a [ ] law granting a denominational
+preference, our precedents demand that we treat the law as suspect and
+that we apply strict scrutiny”).
+3.
+
+“Ministers” are those persons held out by churches as such
+
+Courts should not attempt to assess the religious importance or
+significance of a minister’s duties, in order to answer the question of
+whether one is, or is not, a minister. They should instead limit their
+inquiry to the reasonable, pre-dispute understandings of the parties as
+to that question. For the purpose of the exception, it should be sufficient
+14
+
+
+
+to make a finding that a person is a minister if: (1) the church reasonably
+holds her out to the public as a minister and (2) she accepts the church’s
+designation. Such a test is manageable, and consistent with precedent.
+By refusing to question the correctness of the decisions of church tribunals in church governance, this Court has recognized that individuals
+may voluntarily bind themselves to the authority of these tribunals. See
+Milivojevich, 426 U.S. at 711(“all who unite themselves to a [religious]
+body do so with an implied consent to [its] government, and are bound
+to submit to it”). So long as the church clearly and publicly designates
+someone as a minister, the acceptance of that title—either formally, or
+by taking advantage of the benefits that the title offers—implies consent
+to be bound by its government. So long as they have made a choice to
+accept the offer, they must take the bad with the good.
+This test offers the advantage of a bright-line rule. As the Circuit
+Courts have noted, whatever her religious duties, a minister is a voice of
+her church—that is, hers is a public position. The Courts may consider,
+then, whether an outsider—such as the court itself—would have reasonably perceived that person to have been held out by the church as acting
+15
+
+
+
+and speaking on its behalf. See, e.g., Petruska, 462 F.3d at 306. Such
+consideration is well within the competence of civil courts, and courts
+would be capable of recognizing the circumstance where a sham claim of
+“ministry” is assigned after-the-fact to avoid liability.
+But we stress that it is not necessary, in order for the Court to
+resolve this case, to set out a test to deal with such deception. It is
+unquestioned, as the district court noted, that both parties used the title
+of “minister” long before the commencement of litigation. See HosannaTabor I, 582 F. Supp. 2d at 891. It is further unquestioned that Perich
+accepted that title, and enjoyed its benefits—not least of which was the
+tenure right that she now claims was violated.
+C. Ms. Perich was titled a minister of the Hosanna-Tabor
+Church, accepted her ministry, and thus was a minister
+for the purpose of the exception
+The district court was correct to find that Ms. Perich was a minister,
+and subject to the ministerial exception. This Court thus should reverse
+the erroneous ruling of the Court of Appeals. Before this lawsuit, Ms.
+Perich embraced her role as a minister, rather than disclaiming it. She
+16
+
+
+
+attended the series of colloquy classes as training for the ministry. She
+applied for, and received, a call to ministry from the Hosanna-Tabor
+congregation. She took advantage of the housing allowance offered only
+to those in the practice of ministry.
+Moreover, neither she, nor a reasonable member of the public, could
+have perceived the Church’s manifestations regarding Ms. Perich as
+anything other than bestowing the title of minister. The entire Congregation voted to commission her as minister. Her name was placed in
+the district-wide publication of commissioned teaching ministers. She
+received an “official certificate of admission into the teaching ministry.”
+And she did not reject these titles.
+Moreover, the certification of admission was clear on the responsibilities Perich was being bound to. She was to commit herself to spreading
+the Gospel, live as a Christian role model, provide her students with
+a Christian education, and to live in Christian unity with co-workers.
+The certificate made clear to Perich that she was being called to occupation in which Christianity would play a major role. By accepting,
+
+17
+
+
+
+she reasonably submitted herself to the church’s own (and well-known)
+adjudicative procedures.
+Yet when she was insubordinate and aggressive with her co-workers,
+she violated her responsibilities as a Christian minister. And when she
+threatened to sue without first proceeding through the dispute resolution
+system, she was attempting to avoid her submission to the judgment
+of the ecclesiastical tribunals to which she was bound. Given that this
+Court has taken such a firm stance on the deference civil courts must
+rant to ecclesiastical courts, this end-run around ecclesiastical courts
+should not be allowed.
+Finally, as the district court found, there was no subterfuge in this
+case on the part of the Church. Any reasonable observer would have
+seen Ms. Perich as a minister, and would have expected that she would
+have been bound to rules and regulations of that particular religion. See
+Hosanna-Tabor I, 582 F. Supp. 2d at 891(“This is not a case where the
+defendant seeks to prove ministerial status after the fact merely to avoid
+liability. Hosanna-Tabor treated Perich like a minister and held her
+out to the world as such long before this litigation began.”). Therefore,
+18
+
+
+
+the Church prays this Court to confirm that Ms. Perich was a minister.
+Everson, 330 U.S. at 12.
+
+C ONCLUSION
+The judgment of the District Court should be reversed.
+
+Respectfully Submitted,
+
+Brendan Bernicker
+Counsel for Petitioner
+September 3, 2021
+
+19
+
+
+
+C ERTIFICATE OF C OMPLIANCE
+This document complies with the type-volume limit of Fed. R. App.
+P. 32(a)(7)(B) because, excluding the parts of the document exempted by
+Fed. R. App. P. 32(f), it contains 3023 words.
+This document complies with the typeface requirements of Fed. R.
+App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document
+complies with the type-style requirements of Fed. R. App. P. 32(a)(6)
+because it is set in a plain roman typeface except as permitted by that
+rule. This document was prepared in LATEX.
+s/ Brendan Bernicker
+Brendan Bernicker
+Counsel for Petitioner
+September 3, 2021
+
+20
+
+
+
+C ERTIFICATE OF S ERVICE
+I hereby certify that I filed the foregoing brief with the Clerk of the
+United States Court of Appeals for the First Circuit via the appellate
+CM/ECF system this 30th day of August, 2021. Counsel for all parties
+to the case are registered CM/ECF users and will be served by the appellate CM/ECF system.
+s/ Brendan Bernicker
+Brendan Bernicker
+Counsel for Petitioner
+September 3, 2021
+
+21
+
+
