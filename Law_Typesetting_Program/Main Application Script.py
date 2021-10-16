@@ -8,8 +8,8 @@ import subprocess
 import re
 import PyPDF2
 
-#os.chdir("/Users/brendanbernicker/Documents/GitHub/lawtex-1/Law_Typesetting_Program")
-os.chdir("L:\Github\lawtex-1\Law_Typesetting_Program")
+#os.chdir("/Users/brendanbernicker/Documents/GitHub/lawtex-1/Law Typesetting Program")
+os.chdir("L:\Github\lawtex-1\Law Typesetting Program/")
 
 ## Collect Information (UI: case details, brief type (for rules check), filing?)
 
