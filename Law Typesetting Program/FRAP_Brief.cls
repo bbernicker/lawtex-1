@@ -399,6 +399,7 @@
 \newcommand{\authoremail}[1]{\def\@authoremail{#1}}
 \newcommand*{\titlegraphic}[1]{\def\@titlegraphic{#1}}
 \newcommand*{\filingdate}[1]{\def\@filingdate{#1}}
+\newcommand{\pythonwordcount}[1]{\def\@pythonwordcount{#1}}
 
 \def\@firstparty{\@latex@warning@no@line{No \noexpand\firstparty given}}
 \def\@firstpartytitle{Plaintiff}
@@ -581,7 +582,7 @@
 \makeatother
 \newpage
 \section{Certificate of Compliance}
-This document complies with the type-volume limit of Fed. R. App. P. 32(a)(7)(B) because, excluding the parts of the document exempted by Fed. R. App. P. 32(f), it contains PYTHONWORDCOUNT words.\par
+This document complies with the type-volume limit of Fed. R. App. P. 32(a)(7)(B) because, excluding the parts of the document exempted by Fed. R. App. P. 32(f), it contains \@pythonwordcount .\par
 This document complies with the typeface requirements of Fed. R. App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document complies with the type-style requirements of Fed. R. App. P. 32(a)(6) because it is set in a plain roman typeface except as permitted by that rule. This document was prepared in \LaTeX.\\
 \makeatletter
 ~\\

@@ -559,7 +559,7 @@ Respectfully Submitted,
 
 Brendan Bernicker
 Counsel for Petitioner
-September 3, 2021
+September 25, 2021
 
 19
 
@@ -568,7 +568,7 @@ September 3, 2021
 C ERTIFICATE OF C OMPLIANCE
 This document complies with the type-volume limit of Fed. R. App.
 P. 32(a)(7)(B) because, excluding the parts of the document exempted by
-Fed. R. App. P. 32(f), it contains 3023 words.
+Fed. R. App. P. 32(f), it contains PYTHONWORDCOUNT words.
 This document complies with the typeface requirements of Fed. R.
 App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document
 complies with the type-style requirements of Fed. R. App. P. 32(a)(6)
@@ -577,7 +577,7 @@ rule. This document was prepared in LATEX.
 s/ Brendan Bernicker
 Brendan Bernicker
 Counsel for Petitioner
-September 3, 2021
+September 25, 2021
 
 20
 
@@ -591,7 +591,7 @@ to the case are registered CM/ECF users and will be served by the appellate CM/E
 s/ Brendan Bernicker
 Brendan Bernicker
 Counsel for Petitioner
-September 3, 2021
+September 25, 2021
 
 21
 
