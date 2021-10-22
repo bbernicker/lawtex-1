@@ -8,6 +8,8 @@ import subprocess, os
 # Create a conclusion item that gets automatically merged into the nonbreaking signature block environment.
 # Parse question presented if present
 # Be PDF/A compliant and add signatures for final filing
+# Since scare quotes are both being set as right quotes / apostrophes
+# No statutes in my table of authorities.
 
 #os.chdir("/Users/brendanbernicker/Documents/GitHub/lawtex-1/Law_Typesetting_Program/")
 os.chdir("L:\Github\lawtex-1\Law_Typesetting_Program/")
@@ -58,7 +60,7 @@ def Rich_Text_Formatting(text):
 doc = list(map(Rich_Text_Formatting, doc))
 
 
-# Replace Ordinals with Superscript
+# Replace Ordinals with Superscript [move citations to a different file first]
 def Ordinal_Replace(text):
     text = re.sub(r'1st', r'1\\textsuperscript{st}', text)
     text = re.sub(r'2nd', r'2\\textsuperscript{nd}', text)

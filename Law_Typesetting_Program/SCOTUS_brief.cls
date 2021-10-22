@@ -43,7 +43,7 @@
 \RequirePackage{tokcycle}[2021-03-10]
 \RequirePackage{xcolor}
 \RequirePackage[group-separator={,},group-minimum-digits=4]{siunitx}
-\RequirePackage[autostyle, english = american]{csquotes} %to account for difficulty correcting quotation marks
+\RequirePackage[autostyle, english = american, maxlevel = 5]{csquotes} %to account for difficulty correcting quotation marks
 \RequirePackage{nth}
 \RequirePackage{auto-pst-pdf}
 \RequirePackage{fontspec}
@@ -98,8 +98,8 @@ UprightFont = * C4 Bold]
 
 %Syntax for @startsection{name}{level}{indent}{abovespace}{belowspace}{format}
 %The 4th argument is negative to suppress indenting after the section heading
-\def\section{\@startsection{section}{2}{0pt}{-10pt}{2pt}{\centering\large\bfseries\scshape}}%
-\def\subsection{\@startsection{subsection}{2}{0pt}{-2pt}{2pt}{\hyphenpenalty=10000\large\bfseries}}%
+\def\section{\@startsection{section}{2}{0pt}{-10pt}{2pt}{\centering\BoldSmallCaps}}%
+\def\subsection{\@startsection{subsection}{2}{0pt}{-2pt}{2pt}{\hyphenpenalty=10000\bfseries}}%
 \def\subsubsection{\@startsection{subsubsection}{3}{\parindent}{-2pt}{2pt}{\hyphenpenalty=10000\itshape}}%
 
 %No numbers printed for section (remove \quad); I. Subsection; A. Subsubsection
@@ -210,9 +210,9 @@ UprightFont = * C4 Bold]
 \newcommand{\tableofauthorities}{%
 {%
 \singlespacing
-\large
+\normalsize
 \section{Table of Authorities} \pagestyle{toa}\thispagestyle{romanparen}%
-	\noindent\sc \@caseindextitle\hfill\rm \large Page\par
+	\noindent\sc \@caseindextitle\hfill\rm \normalsize Page\par
 	\vspace{6pt}
 	\everypar={\mark{\@caseindextitle---Continued}}
 	\printindex{Case}
@@ -259,6 +259,7 @@ UprightFont = * C4 Bold]
 %%\noindent _\l@section_ --- Formats Top-level headings in the ToC flush left
 %%
 \renewcommand*\l@section[2]{%
+	\scshape
 	\mdseries
     \addpenalty\@secpenalty%		Prefer to break before or after the tocline, not during
     \setlength\@tempdima{0em}%		Size of the space reserved for section number (which isn't there, so 0)
@@ -502,6 +503,7 @@ UprightFont = * C4 Bold]
 \textsc{\@authorfirm} \\
 \@authoraddress \\
 \@authoremail \\
+\authorphone \\
 
 \endgroup
 
@@ -572,7 +574,7 @@ UprightFont = * C4 Bold]
 \pagestyle{romanparen}
 \pagenumbering{roman}
 \doublespacing
-\large
+\normalsize
 \section{Question Presented}
 \@questionpresented
 \newpage
@@ -581,7 +583,7 @@ UprightFont = * C4 Bold]
 \pagestyle{romanparen}
 \pagenumbering{roman}
 \section{Disclosure Statement}
-\large
+\normalsize
 \doublespacing
 \@disclosurestatement
 \newpage}{}
@@ -593,7 +595,7 @@ UprightFont = * C4 Bold]
 \tableofauthorities
 
 \pagestyle{plain}
-\large
+\normalsize
 \pagenumbering{arabic}
 }
 
@@ -659,22 +661,23 @@ Respectfully submitted.
 \end{absolutelynopagebreak}
 
 \makeatother
-\newpage
-\section{Certificate of Compliance}
-This document complies with the type-volume limit of Fed. R. App. P. 32(a)(7)(B) because, excluding the parts of the document exempted by Fed. R. App. P. 32(f), it contains \@pythonwordcount .\par
-This document complies with the typeface requirements of Fed. R. App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document complies with the type-style requirements of Fed. R. App. P. 32(a)(6) because it is set in a plain roman typeface except as permitted by that rule. This document was prepared in \LaTeX.\\
-\makeatletter
-~\\
-\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
-\makeatother
-\newpage
-\section{Certificate of Service}
-I hereby certify that I filed the foregoing brief with the Clerk of the United States Court of Appeals for the \@circuit \ Circuit via the appellate CM/ECF system this \@filingdate. Counsel for all parties to the case are registered CM/ECF users and will be served by the appellate CM/ECF system.
-\makeatletter
-~\\
-~\\
-\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
-\makeatother
+%%% SCOTUS Certificates are separate PDFs. These should only be generated at filing time. Also they need a caption (plain like SG or full like cover page and many firms)
+%\newpage
+%\section{Certificate of Compliance}
+%As required by Supreme Court Rule 33.1(h), I hereby certify that I am a member in good standing of the Supreme Court Bar and that the \@nameofbrief contains \@pythonwordcount words, excluding those portions that are exempt under the Rule.\par
+%This document complies with the typeface requirements of Fed. R. App. P. 32(a)(5) because it is set in New Century Schoolbook, a proportionally spaced typeface. The font size is 14.4 points. This document complies with the type-style requirements of Fed. R. App. P. 32(a)(6) because it is set in a plain roman typeface except as permitted by that rule. This document was prepared in \LaTeX.\\
+%\makeatletter
+%~\\
+%\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
+%\makeatother
+%\newpage
+%\section{Certificate of Service}
+%I hereby certify that I filed the foregoing brief with the Clerk of the United States Court of Appeals for the \@circuit \ Circuit via the appellate CM/ECF system this \@filingdate. Counsel for all parties to the case are registered CM/ECF users and will be served by the appellate CM/ECF system.
+%\makeatletter
+%~\\
+%~\\
+%\mbox{\hspace{0.5\textwidth} \vbox{\raggedright \onehalfspacing \underline{\textit{s/ \@author}} \\ \@author \\ \@authorrole \\ ~\\ \today}}
+%\makeatother
 }
 
 
@@ -689,9 +692,8 @@ I hereby certify that I filed the foregoing brief with the Clerk of the United S
 \clubpenalty=3000
 \widowpenalty=3000
 
-% Creates footnote spacing, sets size to 14.4 pt, and slightly loosens line spacing and spacing between number and text
+% Creates footnote spacing and slightly loosens line spacing and spacing between number and text
 \addtolength{\skip\footins}{14.4pt} %spacing between body and footnote seperator
-\renewcommand{\footnotesize}{\large} %text size
 \renewcommand{\footnotelayout}{\setstretch{1.2}} %line spacing
 \setlength{\footnotemargin}{2em} %indent for number
 \renewcommand{\footnotelayout}{\hspace{0.5em}} %space between number and text
