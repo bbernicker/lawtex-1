@@ -1,73 +1,54 @@
+
 \providecommand{\documentclassflag}{}
-\documentclass[12pt,\documentclassflag]{FRAP_Brief}
+\documentclass[12pt,\documentclassflag]{SCOTUS_Brief}
+\MakeOuterQuote{"}
 
 
-%We use \newcase because the \emph will throw off parsing in \citecase
-\newcase{Hosanna-Tabor I}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School \emph{(Hosanna-Tabor I)}}
-	{582 F. Supp. 2d}{881}{(E.D. Mich. 2008)}
-\newcase{Hosanna-Tabor II}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School \emph{(Hosanna-Tabor II)}}
-	{597 F.3d}{769}{(6th Cir. 2010)}
 
-%Saves me from writing out the full cite command for the district and circuit court opinions
-\def\HTDist#1{\pincite{Hosanna-Tabor I}{#1}}
-\def\HTApp#1{\pincite{Hosanna-Tabor II}{#1}}
-
-\citecase{Rweyemamu v. Cote, 520 F.3d 198 (2d Cir. 2008)}
-\citecase{McClure v. Salvation Army, 460 F.2d 553 (5th Cir. 1972)}
-\citecase{Petruska v. Gannon Univ., 462 F.3d 294 (3d Cir. 2006)}
-\citecase{Elvig v. Calvin Presbyterian Church, 375 F. 3d 951 (9th Cir. 2004)}
-\citecase{Natal v. Christian and Missionary Alliance, 878 F.2d 1575 (1st Cir. 1989)}
-\citecase{Lewis v. Seventh Day Adventists Lake Region Conf., 978 F.2d 940 (6th Cir. 1992)}
-\citecase[Catholic Univ.]{E.E.O.C. v. Catholic Univ. of America, 83 F.3d 455 (D.C. Cir. 1996)}
-\citecase{Presbyterian Church v. Hull Church, 393 U.S. 440 (1969)}
-\citecase[Milivojevich]{Serbian Eastern Orthodox Diocese for the USA and Canada v. Milivojevich, 426 U.S. 696 (1976)}
-\citecase{Kedroff v. St. Nicholas Cathedral of the Russian Orthodox Church in North America, 344 U.S. 94 (1952)}
-\citecase{Larson v. Valente, 456 U.S. 228 (1982)}
-\citecase{Watson v. Jones, 80 U.S. 679 (1872)}
-\citecase{Thomas v. Review Bd., 450 U.S. 707 (1981)}
-\citecase{Walz v. Tax Comm'n of City of New York, 397 U.S. 664 (1970)}
-\citecase{Everson v. Bd. of Ed. of Ewing, 330 U.S. 1 (1947)}
-\citecase{Arbaugh v. Y&H Corp., 546 U.S. 500 (2006)}
-
-\newbook{Prosser and Keaton}{William Lloyd Prosser & W. Page Keaton}{The Law of Torts}{(2nd ed. 1953)}
-
-
-\newarticle{Note, \emph{The Ministerial Exception}}{Note}{The Ministerial Exception To Title VII: The Case for a Deferential Primary Duties Test}{121 Harv. L. Rev.}{1776}{(2009)}{}
-
-\newstatute{Fed. R. Civ. P.}{}
-\SetIndexName{Fed. R. Civ. P.}{Federal Rules of Civil Procedure !Rule }
-
-\newmisc{J.A.}{J.A. \pin{}{}}
-\SetIndexType{J.A.}{}
-
-%The following line add ``U.S. Const. Amend. I'' to the Statutes index section,
-% uses the aa@ prefix to order it first in the list, and marks it passim
-% \index{Statute}{aa@\textsc{U.S. Const.} amend. I|idxpassim}
-{\makeatletter % it's not necessary to make at a letter if this is already true. But calling \makeatletter in a brace-delimited block is good practice because it always works and does not affect the rest of the document.
-  \newstatute[0@1stamend]{\textsc{U.S. Const.} amend. I}{} % put at place 0, call it 1stamend
-  \newstatute[42@42 USC]{Title 42, United States Code}{}
-  \newstatute[28@28 USC]{Title 28, United States Code}{}
-}
+%Paste Citations Here
+\citecase[Casey]{Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992)}
+\citecase[Roe]{Roe v. Wade, 410 U.S. 113 (1973)}
+\citecase[Carhart]{Stenberg v. Carhart, 530 U.S. 914 (2000)}
+\citecase[Lawrence]{Lawrence v. Texas, 539 U.S. 558 (2003)}
+\citecase[Box]{Box v. Planned Parenthood of Indiana and Kentucky, Inc., 139 S.Ct. 1780 (2019)}
+\newstatute{18 Pa.C.S.A.}{(2021)}
+\newstatute{N.D. Cent. Code Ann.}{(2021)}
+\newstatute{La. Stat. Ann.}{(2021)}
+\citecase[Isaacson]{Isaacson v. Brnovich, No. CV-21-01417-PHX-DLR, 2021 WL 4439443 (D. Ariz. Sept. 28, 2021)}
+\citecase[Hopkins]{Hopkins v. Jegley, 510 F. Supp. 3d 638 (E.D. Ark. 2021)}
+\citecase[Memphis]{Memphis Ctr. for Reprod. Health v. Slatery, 14 F.\nth{4} 409 (\nth{6} Cir. 2021)}
+\newstatute{Ariz. Rev. Stat. Ann.}{(2021)}
+\newstatute{Ark. Code}{(2021)}
+\newstatute{Kan. Stat. Ann.}{(2021)}
+\newstatute{N.C. Gen. Stat.}{(2021)}
+\newstatute{63 Okla. Stat.}{(2021)}
+\newstatute{S.D. Codified Laws}{(2021)}
+\newstatute{Miss. Code. Ann.}{(2021)}
+\citecase[Roberts]{Roberts v. U.S. Jaycees, 468 U.S. 609, 610 (1984)}
+\newmisc{Respondents' Brief in Casey}{Brief of Respondents in \textit{Planned Parenthood of Southeastern Pa.} v. \textit{Casey}, O. T. 1991, Nos. 91–744, 91–902, p. 4, 1992 WL 12006423\pin{, }{}}
+\newbook{Sheffer}{Edith Sheffer}{Asperger's children: The origins of autism in Nazi Vienna}{(2018)}
 
 
 %Set the information for the title page (later produced by \makefrontmatter)
-\docket{No. 21-1234}
-\circuit{First}
-\petitioner{Hosanna-Tabor Evangelical Church and School}
-\respondent{Equal Opportunity Employment Commission}
-\briefposture{On Remand from the \\ Supreme Court of the United States}
-\nameofbrief{Brief for Petitioner}
+\docket{No. 21-3}
+\circuit{Eighth}
+\petitioner{Eric S. Schmitt, Attorney General of Missouri, et al.}
+\respondent{Reproductive Health Services of Planned Parenthood \\ of the St. Louis Region, Inc.}
+\briefposture{On Writ of Certiorari to\\ The United States Court of Appeals\\ for the Eighth Circuit}
+\nameofbrief{Brief for the Petitioners}
 \author{Brendan Bernicker}
-\authorrole{Counsel for Petitioner}
-\authorfirm{Yale Law School}
+\authorrole{Counsel for the Petitioners}
+\authorfirm{Yale Law School \\ Con. Lit. Seminar}
 \authoraddress{127 Wall Street \\ New Haven, CT 06510}
 \authorphone{(610) 203-0293}
 \authoremail{brendan.bernicker@yale.edu}
-\filingdate{30th day of August, 2021} %format is important for certificate of service
+\filingdate{27th day of October, 2021} %format is important for certificate of service
 \pythonwordcount{PYTHON WILL INPUT THE WORD COUNT HERE}
 
 \disclosurestatementrequired{0} %Yes(1)/No(0), tells the computer whether to create page for it
 \disclosurestatement{{If required, the disclosure statement goes here.}}
+
+\questionpresented{{Whether a Missouri Law that prohibits medical providers from performing abortions when the provider knows that the sole reason for the abortion is a screening or test that indicates the unborn child has Downs Syndrome (the Downs Syndrome provision) is facially invalid under \textit{Roe v. Wade} and \textit{Planned Parenthood of Southeastern Pennsylvania v. Casey} or whether it is a valid, reasonable regulation of abortion.}}
 
 
 \begin{document}
@@ -79,21 +60,99 @@
 \setlength{\parskip}{1.25ex plus 2ex minus .5ex}
 \setstretch{2}  %this is double spacing
 
-\section{Summary of Argument}
+\section{Opinions Below}
 
-The First Amendment provides that "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof." The Establishment and Free Exercise Clauses are rooted in the Founders' understanding that "the best interest of a society require[s] that the minds of men always be wholly free." Therefore, these Religion Clauses prohibit the "excessive entanglement" of church and state. In particular, "there is substantial danger that the State will become entangled in essentially religious controversies or intervene on behalf of groups espousing particular doctrinal beliefs" when hearing internal church disputes. Therefore, lower courts have developed the "ministerial exception," by which the courts will not examine a church's decision to hire or fire its ministers.  
+The opinion of the Court of Appeals is reported at 1 F.4\textsuperscript{th} 552 (\nth{8} Cir. 2021). The opinions of the District Court are reported at 389 F. Sup. 3d 631 (W.D. Mo. 2019) and 408 F. Sup. 3d 1049 (W.D. Mo. 2019).
+
+\section{Jurisdiction}
+
+The judgment of the court of appeals was entered on June 9, 2021. The petition for a writ of certiorari was filed on June 30, 2021, and was granted on September 1, 2021. This Court’s jurisdiction rests on 28 U.S.C. § 1254(1).
+
+\section{Statutory Provisions Involved}
+
+The statutory provision at issue in this case is set out in Mo. Ann. Stat. § 188.038. It reads, in relevant part, "[n]o person shall perform or induce an abortion on a woman if the person knows that the woman is seeking the abortion solely because of a  prenatal diagnosis, test, or screening indicating Down Syndrome or the  potential of Down Syndrome in an unborn child." The full section of the Missouri Code is attached as Appendix A.
+
+\section{Introduction}
+
+\textit{Roe v. Wade} searched the "penumbras" of the Bill of Rights and found a substantive due process right to terminate a pregnancy. \pincite{Roe}{152}. It then held that this right is "fundamental," and that laws which burden it must therefore pass strict scrutiny. \pincite{Roe}{155}. There are good reasons to question both of these holdings. \Seeeg \pincite{Carhart}{980-1}~(\textsc{Thomas}, J., dissenting).
+
+But this Court need not reconsider \textit{Roe} or \textit{Casey} \cite[!]{Casey} to uphold Missouri's prohibition on terminating a pregnancy solely because the unborn child has Down Syndrome. This prohibition withstands strict scrutiny because Missouri has a compelling state interest in eradicating discrimination against people with Down Syndrome, and this statute is narrowly tailored to advance that compelling interest.
+
+The specific state interests that \textit{Roe} \cite[!]{Roe} and \textit{Casey} \cite[!]{Casey} weighed against a woman's right to terminate a pregnancy were in (1) protecting the health of pregnant mothers and (2) protecting the 'potential life' of unborn children. The Court held in \textit{Roe}, and reaffirmed in \textit{Casey}, that neither interest is compelling enough for abortion bans to satisfy strict scrutiny in the early stages of pregnancy.\footnote{In \textit{Roe}, "early stages" was defined differently with respect to each interest. The state's interest in protecting the health of the mother was not compelling during the "first trimester," when the Court believed abortions were safe enough that they did not require significant regulation. The state's interest in protecting the lives of unborn children was not compelling until the children were "viable," meaning that they are "potentially able to live outside the mother's womb, albeit with artificial aid." \pincite{Roe}{160}. In \textit{Casey} \cite[i]{Casey} the Court reaffirmed that viability was the point at which the state's interest in protecting the lives of unborn children became sufficiently compelling to support an outright ban on abortion. WHAT DID IT SAY ABOUT HEALTH OF THE MOTHER? } \textit{Roe} \cite[!]{Roe} and \textit{Casey} \cite[!]{Casey} left open the possibility, however, that other state interests might provide a compelling basis for regulating pre-viability abortion under particular circumstances.
+
+For example, this Court has recognized that states have "a compelling interest in eradicating discrimination against [their] female citizens." \pincite{Roberts}{610}. To vindicate this interest, nine states, including Missouri, have prohibited women from terminating a pregnancy solely because of the sex of the fetus.\footnote{Copy here and check every statute again.} A
+
+These prohibitions are narrowly tailored to advance the state's interest.\footnote{Some of the state statutes are not limited only to abortions motivated "solely" by the sex of the fetus. \Seeeg North Carolina (Get the parenthetical), Tennessee. } They do not reach all abortions, or even all abortions of female fetuses. They instead focus on discriminatory intent and only prohibit abortions that are motivated solely by the sex of the unborn child. These prohibitions therefore withstand strict scrutiny. Indeed, the respondents in this case do not challenge Missouri's prohibition on sex discrimination in abortion decisions, just as the plaintiff's in \textit{Casey} \cite[!]{Casey} did not challenge Pennsylvania's prohibition on sex-selective abortion when they challenged other provisions of the same statute. \See  \pincite{18 Pa.C.S.A.}{\S 3204(c)}; \seealso \pincite{Respondents' Brief in Casey}{4}~(noting that there was no challenge to the sex-selective abortion bar).
+
+The same reasoning that supports the unchallenged prohibitions on sex-discriminatory abortions also supports Missouri's ban on abortions that are sought solely because of a Down Syndrome diagnosis. First, Missouri has a compelling state interest in eradicating discrimination against people with Down Syndrome. The long and shameful history of government-supported measures to institutionalize and sterilize people with Down Syndrome only strengthens Missouri's interest in eradicating this discrimination.
+
+For an abortion restriction aimed at this 
+
+\section{Statement of the Case}
+
+\section{Summary of the Argument}
+
+The statutory provision in this case is not designed to protect the health of pregnant women or to safeguard the potential life of unborn children. Instead, it advances the state's compelling interest in eradicating discrimination against people with Down Syndrome. 
+
+Specifically, the Court has never considered whether the state's compelling interest in preventing discrimination against historically oppressed and marginalized groups can justify prohibitions on "sex-, race-, and disability-selective abortions." \pincite{Box}{1782}.
+
+As set forth below, in the decades immediately following \textit{Roe}, even abortion advocates generally accepted that states could prevent discriminatory abortions. 
+
+The Missouri law at issue in this case is narrowly tailored because it only burdens women who seek an abortion \textit{solely} because their unborn child has Down Syndrome.
 
 \section{Argument}
 
-\subsection{Standard of Review}
+\subsection{This Court has never recognized a right to discriminatory abortions.}
 
-The parties contest the appropriate standard of review regarding the ministerial exception. Petitioner Hosanna-Tabor requests this Court to consider the claim as a challenge to subject-matter jurisdiction as did both the district court and the Court of Appeals. Thus the legal conclusions of the lower courts are reviewed de novo, and factual findings are affirmed unless clearly erroneous.\footnote{This is almost always true. It is stupid to write this in every brief and opinion.}
+This Court has never considered whether the state's compelling interest in preventing discrimination against historically oppressed and marginalized group can justify prohibitions on discriminatory abortions based on protected characteristics. \pincite{Box}{1782}~(noting that the Court has not yet considered prohibitions on "sex-, race-, and disability-selective abortions.").
 
-\textbf{The district court's judgment was not \textit{specifically} in response to a 12(b)(1) motion}. Instead, the court issued its judgment in response to a Rule 56 motion for summary judgment. Typically, an entry of summary judgment is appropriate when "there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law."
+\textit{Roe} \cite[!]{Roe} and \textit{Casey} \cite[!]{Casey} considered states’ interests in enacting general abortion regulations and held that they were not compelling with respect to pre-viability abortions. Neither case, however, held that states could not have a compelling interest in regulating specific types of abortions. Instead, this Court’s decisions in other contexts have made plain that states do have compelling interests in eradicating discrimination, and those interests are no less compelling in the abortion context than they are in other contexts.
 
-\subsection{The Ministerial Exception is a necessary consequence of the First Amendment's guarantee of Freedom of Religion}
+[Restate Casey’s “essential holding” paraphrase of \textit{Roe}].
 
-This ministerial exception, however, is not merely a prudential doctrine of judicial restraint, but a necessary consequence of the Constitution's commitment to religious freedom.\footnote{This committment to religious freedom is reflected in the First Amendment's twin promises of free-exercise and non-establishment.} While this Court has not spoken directly to the ministerial exception, the doctrine follows directly from this Court's interpretation of the Establishment and Free Exercise Clauses. 
+The state interests in general abortion regulations recognized in \textit{Roe} and \textit{Casey} are not exhaustive.
+
+“Private biases may be outside the reach of the law, but the law cannot, directly or indirectly, give them effect.” Palmore v. Sidoti, 466 U.S. 429, 433, 104 S.Ct. 1879, 1882, 80 L.Ed.2d 421 (1984).
+
+\subsection{Missouri has a compelling interest in preventing discriminatory abortions based solely on Down Syndrome diagnoses.}
+
+While \textit{Roe} \cite[!]{Roe} and \textit{Casey} \cite[!]{Casey} do not require women to offer any reason for seeking an abortion, it does not follow that a woman may have an abortion "for whatever reason she alone chooses." \pincite{Roe}{153}. There are many areas of law where somebody is free to take an action for any reason except based on a protected characteristic. An employer can lay off an employee for no reason, but cannot lay off an employee because she becomes pregnant. A restaurant owner can serve or refuse to serve whoever they like, but they cannot refuse to serve people on account of their race. Similarly, a woman can choose to terminate her pregnancy prior to viability for no reason at all or for almost any reason; but, in Missouri, she cannot choose to abort an unborn child solely because of that child’s sex, race, or Down Syndrome diagnosis.
+
+In the decades immediately following \textit{Roe}, even abortion advocates generally accepted that states could prevent discriminatory abortions. For example, the Pennsylvania statute at issue in \textit{Casey} prohibited sex-selective abortions, but Planned Parenthood of Southeastern Pennsylvania opted not to challenge that provision and it remains in effect to this day. \See  \pincite{18 Pa.C.S.A.}{\S 3204(c)}; \seealso \pincite{Respondents' Brief in Casey}{4}. 
+
+Respondents do not challenge the provisions of Missouri’s statute that prohibit abortions based solely on a fetus’s sex or race. Including Missouri and Pennsylvania, ten states ban some or all sex-discriminatory pre-viability abortions. \footnote{\See \pincite{Ariz. Rev. Stat. Ann.}{ \S 13–3603.02}~(the portions of this statute pertaining to discrimination based on Down syndrome diagnoses have been enjoined in \cite{Isaacson}, but the sex-discrimination provision was not challenged and remains in effect); \pincite{Ark. Code}{ \S 20–16–1904}~(other portions of this statute have been enjoined in \cite{Hopkins}, but the sex-discrimination provision was not challenged and remains in effect); \pincite{Kan. Stat. Ann.}{ \S 65–6726}; \pincite{N.C. Gen. Stat.}{ \S 90–21.121}; \pincite{N.D. Cent. Code Ann.}{ \S 14–02.1–04.1}; \pincite{63 Okla. Stat.}{ \S 1–731.2(B)}; \pincite{S.D. Codified Laws}{ \S 34–23A–64}; \pincite{Miss. Code. Ann.}{ \S 41-41-407}. } Most of these sex-discrimination bans have never been challenged.\footnote{Federal courts have enjoined the enforcement of statutes banning sex-discriminatory pre-viability abortions in four additional states for reasons that are inapplicable to the Missouri statutes at issue in this case. The Sixth Circuit held that a Tennessee statute prohibiting abortions based on sex, race, or a Down Syndrome diagnosis was unconstitutionally vague because, unlike the Missouri statute, it did not limit liability to situations where the discriminatory basis was the \textit{sole} reason for the abortion. \Seegenerally \cite{Memphis}. Illinois, Indiana, and Kentucky are the others.}
+
+These sex-discrimination statutes do not serve either of the state interests addressed in \textit{Roe} or \textit{Casey}, and nobody disputes that they substantially burden abortions based on discriminatory factors. But their often-unchallenged persistence and adoption demonstrate that states have compelling interests in rooting out discrimination, and that outright bans on certain discriminatory abortions can survive strict scrutiny even when they pose a substantial burden.
+
+North Dakota has prohibited abortions based solely on a Down Syndrome diagnosis since 2013. \pincite{N.D. Cent. Code Ann.}{\S 14-02.1-04.1} ~(West)~(also prohibiting sex-selective abortions). Louisiana has a similar law that prohibits pre-viability abortions after 20 weeks if those abortions are solely motivated by a diagnosis of a genetic abnormality. \pincite{La. Stat. Ann.}{\S 40:1061.1.2}. Neither law has been challenged.
+
+"Thirty per cent of those who were killed suffered from physical  disabilities, one in ten had Down Syndrome, others suffered from  hydrocephalus, epilepsy, cerebral palsy and other brain injuries or  disorders. Socially related 'coexisting indications' in the parents,  such as alcoholism, speech defects or sexual impulsiveness, were often  added to the applications for permission to kill the children." \pincite{Sheffer}{185} [NOT A DIRECT QUOTE. FROM https://tidsskriftet.no/en/2019/05/essay/asperger-nazis-and-children-history-birth-diagnosis]
+
+\textit{Roe} also explicitly rejected the view that a pregnant woman has the right "to terminate her pregnancy at whatever time, in whatever way, and for whatever reason she alone chooses." \pincite{Roe}{153}. The \textit{Roe} Court approvingly cited lower court opinions holding that neither of the two state interests the Court recognized "justified \textit{broad} limitations on the reasons for which a physician and his pregnant patient might decide that she should have an abortion in the early stages of pregnancy." \pincite{Roe}{156}~(emphasis added). Where states have compelling interests other than the two \textit{Roe} rejected, \textit{Roe} does not prohibit them from adopting specific, narrowly-tailored limitations on the reasons for which a woman can decide to terminate her pregnancy.
+
+Past discrimination in the form of state eugenics program. (Did Missouri have one?)
+
+Statement that Missouri values people with down syndrome would be empty if Missouri allowed women to decide that it would be per se better that people with Down Syndrome never be born.
+
+Aborting an unborn child solely because they have down syndrome is akin to expressive hate speech.
+
+Relatedly, Missouri has an interest in maintaining neurological diversity. [This statute is about diversity and dignity.]
+
+\subsection{Missouri's prohibition on discriminatory abortions is narrowly tailored.}
+
+As the 6,000 mothers who give birth to children with Down Syndrome each year demonstrate, nobody has an abortion \textit{solely} because of a Down Syndrome diagnosis. Some women may choose an abortion because their unborn child has Down Syndrome \textit{and} they are not emotionally prepared to carry any child to term regardless of their special needs. That abortion would not be solely due to the diagnosis. Some women may chose to have an abortion because their unborn child has Down Syndrome \textit{and} they are unable to raise a child with Down Syndrome but unwilling to put their own child up for adoption. That abortion would not be solely due to the diagnosis. 
+
+Indeed, basic rules of textualism and lenity will make it hard for Missouri to ever bring a prosecution under this statute. 
+
+A criminal statute can stigmatize the conduct it prohibits, even when that statute is very rarely enforced. ("If protected conduct is made criminal and the law which does so remains unexamined for its substantive validity, its stigma might remain even if it were not enforceable as drawn for equal protection reasons. When homosexual conduct is made criminal by the law of the State, that declaration in and of itself is an invitation to subject homosexual persons to discrimination both in the public and in the private spheres.") \pincite{Lawrence}{575}. We want to stigmatize this conduct.
+
+\subsection{If the Court holds that this statute does not pass strict scrutiny, it should reconsider whether the right recognized in \textit{Roe} is "fundamental."}
+
+Federalism is fundamental. I'll tolerate your sins and and the laboratories of democracy.
+
+Democratic self-government is fundamental. Case for originalism.
+
+
 
 \makeendmatter 
 

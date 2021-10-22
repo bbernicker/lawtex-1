@@ -7,6 +7,7 @@
 - Maintain backward compatibility.
 - Allow state customizations.
 - Allow for modifications.
+- The [n] flag for reporter or reporter year citations is not working properly. Does not seem to work at all for first cite, and is pincite page only for subsequent cites.
 
 ** Tasks
 *** TODO Testing
@@ -42,11 +43,11 @@ should be rewritten so as to allow the testing of clean strings. We
 can also test the output of the final `\textbackslash{}cite` and
 `\textbackslash{}pincite` macros by eye, not using the assert macro.
 
-Need to track down how cases are printed. 
-Start with \cite then \pincite 
-\cite -> @bbsource -> @bbReporterOnlyCite 
-\cite -> @bbsource -> @bbReporterOnlyPinCite 
-\cite -> @bbsource -> @bbLongCite -> \@bbCaseLongCite 
+Need to track down how cases are printed.
+Start with \cite then \pincite
+\cite -> @bbsource -> @bbReporterOnlyCite
+\cite -> @bbsource -> @bbReporterOnlyPinCite
+\cite -> @bbsource -> @bbLongCite -> \@bbCaseLongCite
 \cite -> @bbsource -> @bbShortCite
 
 ***** TODO test cases with 1 cite.
@@ -58,4 +59,3 @@ Extend the existing framework to allow parallel citations and slip opinions.
 ** Thoughts
 *** Localization
 States have different rules for citations. It would be nice to make all the localizations in one file to avoid the development of incompatible development between different states.
-

@@ -1,74 +1,30 @@
 \providecommand{\documentclassflag}{}
-\documentclass[12pt,\documentclassflag]{FRAP_Brief}
+\documentclass[12pt,\documentclassflag]{SCOTUS_Brief}
+\MakeOuterQuote{"}
 
-
-%We use \newcase because the \emph will throw off parsing in \citecase
-\newcase{Hosanna-Tabor I}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School \emph{(Hosanna-Tabor I)}}
-	{582 F. Supp. 2d}{881}{(E.D. Mich. 2008)}
-\newcase{Hosanna-Tabor II}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Church and School \emph{(Hosanna-Tabor II)}}
-	{597 F.3d}{769}{(6th Cir. 2010)}
-
-%Saves me from writing out the full cite command for the district and circuit court opinions
-\def\HTDist#1{\pincite{Hosanna-Tabor I}{#1}}
-\def\HTApp#1{\pincite{Hosanna-Tabor II}{#1}}
-
-\citecase{Rweyemamu v. Cote, 520 F.3d 198 (2d Cir. 2008)}
-\citecase{McClure v. Salvation Army, 460 F.2d 553 (5th Cir. 1972)}
-\citecase{Petruska v. Gannon Univ., 462 F.3d 294 (3d Cir. 2006)}
-\citecase{Elvig v. Calvin Presbyterian Church, 375 F. 3d 951 (9th Cir. 2004)}
-\citecase{Natal v. Christian and Missionary Alliance, 878 F.2d 1575 (1st Cir. 1989)}
-\citecase{Lewis v. Seventh Day Adventists Lake Region Conf., 978 F.2d 940 (6th Cir. 1992)}
-\citecase[Catholic Univ.]{E.E.O.C. v. Catholic Univ. of America, 83 F.3d 455 (D.C. Cir. 1996)}
-\citecase{Presbyterian Church v. Hull Church, 393 U.S. 440 (1969)}
-\citecase[Milivojevich]{Serbian Eastern Orthodox Diocese for the USA and Canada v. Milivojevich, 426 U.S. 696 (1976)}
-\citecase{Kedroff v. St. Nicholas Cathedral of the Russian Orthodox Church in North America, 344 U.S. 94 (1952)}
-\citecase{Larson v. Valente, 456 U.S. 228 (1982)}
-\citecase{Watson v. Jones, 80 U.S. 679 (1872)}
-\citecase{Thomas v. Review Bd., 450 U.S. 707 (1981)}
-\citecase{Walz v. Tax Comm'n of City of New York, 397 U.S. 664 (1970)}
-\citecase{Everson v. Bd. of Ed. of Ewing, 330 U.S. 1 (1947)}
-\citecase{Arbaugh v. Y&H Corp., 546 U.S. 500 (2006)}
-
-\newbook{Prosser and Keaton}{William Lloyd Prosser & W. Page Keaton}{The Law of Torts}{(2nd ed. 1953)}
-
-
-\newarticle{Note, \emph{The Ministerial Exception}}{Note}{The Ministerial Exception To Title VII: The Case for a Deferential Primary Duties Test}{121 Harv. L. Rev.}{1776}{(2009)}{}
-
-\newstatute{Fed. R. Civ. P.}{}
-\SetIndexName{Fed. R. Civ. P.}{Federal Rules of Civil Procedure !Rule }
-
-\newmisc{J.A.}{J.A. \pin{}{}}
-\SetIndexType{J.A.}{}
-
-%The following line add ``U.S. Const. Amend. I'' to the Statutes index section,
-% uses the aa@ prefix to order it first in the list, and marks it passim
-% \index{Statute}{aa@\textsc{U.S. Const.} amend. I|idxpassim}
-{\makeatletter % it's not necessary to make at a letter if this is already true. But calling \makeatletter in a brace-delimited block is good practice because it always works and does not affect the rest of the document.
-  \newstatute[0@1stamend]{\textsc{U.S. Const.} amend. I}{} % put at place 0, call it 1stamend
-  \newstatute[42@42 USC]{Title 42, United States Code}{}
-  \newstatute[28@28 USC]{Title 28, United States Code}{}
-}
+%Paste Citations Here
 
 
 %Set the information for the title page (later produced by \makefrontmatter)
-\docket{No. 21-1234}
-\circuit{First}
-\petitioner{Hosanna-Tabor Evangelical Church and School}
-\respondent{Equal Opportunity Employment Commission}
-\briefposture{On Remand from the \\ Supreme Court of the United States}
-\nameofbrief{Brief for Petitioner}
+\docket{No. 21-3}
+\circuit{Eighth}
+\petitioner{Eric S. Schmitt, Attorney General of Missouri, et al.}
+\respondent{Reproductive Health Services of Planned Parenthood \\ of the St. Louis Region, Inc.}
+\briefposture{On Writ of Certiorari to\\ The United States Court of Appeals\\ for the Eighth Circuit}
+\nameofbrief{Brief for the Petitioners}
 \author{Brendan Bernicker}
-\authorrole{Counsel for Petitioner}
-\authorfirm{Yale Law School}
+\authorrole{Counsel for the Petitioners}
+\authorfirm{Yale Law School \\ Con. Lit. Seminar}
 \authoraddress{127 Wall Street \\ New Haven, CT 06510}
 \authorphone{(610) 203-0293}
 \authoremail{brendan.bernicker@yale.edu}
-\filingdate{30th day of August, 2021} %format is important for certificate of service
+\filingdate{27th day of October, 2021} %format is important for certificate of service
 \pythonwordcount{PYTHON WILL INPUT THE WORD COUNT HERE}
 
 \disclosurestatementrequired{0} %Yes(1)/No(0), tells the computer whether to create page for it
 \disclosurestatement{{If required, the disclosure statement goes here.}}
 
+\questionpresented{{Whether a Missouri Law that prohibits medical providers from performing abortions when the provider knows that the sole reason for the abortion is a screening or test that indicates the unborn child has Down's Syndrome (the Down's Syndrome provision) is facially invalid under \textit{Roe v. Wade} and \textit{Planned Parenthood of Southeastern Pennsylvania v. Casey} or whether it is a valid, reasonable regulation of abortion.}}
 
 \begin{document}
 %This commands creates the title page, table of contents, and table of authorities

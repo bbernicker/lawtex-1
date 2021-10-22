@@ -26,7 +26,7 @@
 
 \@ifundefined{SuppressClass}{%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{FRAP_Brief}
+\ProvidesClass{SCOTUS_Brief}
 \LoadClassWithOptions{article}
 }{}%
 
@@ -47,16 +47,24 @@
 \RequirePackage{nth}
 \RequirePackage{auto-pst-pdf}
 \RequirePackage{fontspec}
+\RequirePackage[normalem]{ulem}
 
 % Set main font
-\setmainfont{Equity}[
-Extension = .ttf,
-UprightFont = * Text B Regular,
-BoldFont = * Text B Bold,
-ItalicFont = * Text B Italic,
-BoldItalicFont = * Text B Bold Italic,
-SmallCapsFont = * Caps B Regular
+\setmainfont{Century Supra}[
+Extension = .otf,
+UprightFont = * T4 Regular,
+BoldFont = * T4 Bold,
+ItalicFont = * T4 Italic,
+BoldItalicFont = * T4 Bold Italic,
+SmallCapsFont = * C4 Regular
 ]
+
+% Create Bold Small Caps Environment for Title Page
+\newfontfamily{\BoldSmallCaps}{Century Supra}[Extension = .otf,
+UprightFont = * C4 Bold]
+
+% Create Blackletter Environment for Title Page
+\newfontfamily{\Blackletter}{Court Name Old English}[Extension = .ttf]
 
 \makeandletter
 \makeatletter
@@ -73,6 +81,7 @@ SmallCapsFont = * Caps B Regular
 	\immediate\write18{makeindex -r -s lawcitations.ist Other}%
 }
 
+\defaultfontfeatures{Ligatures=TeX}
 
 \AtEndDocument{%
 	\@RunMakeIndex%
@@ -428,69 +437,90 @@ SmallCapsFont = * Caps B Regular
 \def\@address{\@latex@warning{No \noexpand\address given}}
 \def\@titlegraphic{SupremeCourt.pdf}
 
+\newcommand{\questionpresented}[1]{\def\@questionpresented{#1}}
+
 \newcommand{\disclosurestatement}[1]{\def\@disclosurestatement{#1}}
 \newcommand{\disclosurestatementrequired}[1]{\def\@disclosurestatementrequired{#1}}
+
 
 \renewcommand{\maketitle}{\makesupremetitle}
 
 \newcommand{\makesupremetitle}{%
 \setlength{\parskip}{2ex plus 1ex minus .5ex}
-
+\vfill ~
+\vspace{-10pt}
 \begin{center}
 \thispagestyle{empty}
-\linespread{1.3}
-\large
-\textbf{\@docket}\\
+{\bf \@docket}
 \sectionline
 
+%%% Generate Blackletter SCOTUS Court name (revisit after moving to XeLaTeX when I can import custom fonts)
+{\Large \Blackletter In the}\\
+\vspace{10pt}
+{\LARGE \Blackletter Supreme Court of the United States}\\
+\vspace{14.4 pt}
+\sectionline
 
-\Large
-\textsc{In the United States Court of Appeals}\\
-\large
-\textit{for the}\\
-\Large
-\textsc{\@circuit \ Circuit}\\
+%%% Making SCOTUS Title with graphic
+%\normalsize
+%\textsc{In The} \\
+%\vspace{10pt}
+%\includegraphics[width=.65\textwidth]{\@titlegraphic}\\
+%\vspace{14.4 pt}
+%\sectionline
+
+\vspace{14.4 pt}
+\textsc{\@firstparty} \\
+\vspace{7pt}
+\textit{Petitioners,} \\
+~\\
+\textit{v.} \\
+~\\
+\textsc{\@secondparty} \\
+\vspace{7pt}
+\emph{\@secondpartytitle.} \\
+
+\smallrule
+
+\textit{\@briefposture} \\
 
 \smallrule
 
 \large
-
-\textsc{\@firstparty}\\
-\textit{\@firstpartytitle} \\
-\textit{v.} \\
-\textsc{\@secondparty}\\
-\textit{\@secondpartytitle}\\
-\smallrule \\
-\vspace{7pt}
-\textit{\@briefposture{}}\\
-
-\smallrule\\
-
-\Large
-\vspace{7pt}
-\textbf{\@nameofbrief{}}\\
-
+{\BoldSmallCaps \@nameofbrief} \\
+\normalsize
 \smallrule
 
 \end{center}
-\large
+
 \begingroup
+\normalsize
 \setlength{\leftskip}{.5\textwidth}
 \parindent=0pt
-
 \@author \\
-\textit{\@authorrole}\\
-\textsc{\@authorfirm}\\ %name of organization/firm using template
-\@authoraddress\\
-\@authorphone\\
-\@authoremail\\
+\hspace*{1 em} \textit{Counsel of Record} \\
+\textsc{\@authorfirm} \\
+\@authoraddress \\
+\@authoremail \\
 
 \endgroup
 
-\sectionline \newpage
+
+\begin{center}
+\textit{\@authorrole}\\
+\vspace{7 pt}
+\sectionline
+\scriptsize
+\vspace{-7.4 pt}
+\textsc{Typeset with LegalPad}
+\end{center}
+
+\vfill ~\\
+\newpage
 }
 
 \newcommand{\makecaption}{{
+\singlespacing
 
 \begin{centering}
 \bf\scshape \@court \\~\\
@@ -522,12 +552,12 @@ SmallCapsFont = * Caps B Regular
 {\@actionnumber
 } \\
 \cline{1-1}
-
-
 \end{tabular}
 
 \end{centering}
 }}
+
+
 
 %%
 %% \noindent _\makefrontmatter_
@@ -539,6 +569,14 @@ SmallCapsFont = * Caps B Regular
 \newcommand{\makefrontmatter}{
 \maketitle
 
+\pagestyle{romanparen}
+\pagenumbering{roman}
+\doublespacing
+\large
+\section{Question Presented}
+\@questionpresented
+\newpage
+
 \ifthenelse{\@disclosurestatementrequired = 1}{
 \pagestyle{romanparen}
 \pagenumbering{roman}
@@ -548,7 +586,7 @@ SmallCapsFont = * Caps B Regular
 \@disclosurestatement
 \newpage}{}
 
-\onehalfspacing
+\singlespacing
 \section*{Table of Contents}
 \tableofcontents
 \newpage
@@ -588,10 +626,38 @@ SmallCapsFont = * Caps B Regular
 %==============================================================================
 % Creating End Matter with Signature Block and Certificates
 %==============================================================================
+\newcommand{\printmonthyear}{\ifcase \month \or January\or February\or March\or %
+April\or May \or June\or July\or August\or September\or October\or November\or %
+December\fi\hspace{6 pt}\number \year}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
 
 \newcommand{\makeendmatter}{
 \makeatletter
-\mbox{\hspace{2.75in} \vbox{\raggedright \onehalfspacing Respectfully Submitted, \\ ~\\ \rule{2.75in}{.5pt}\\ \@author \\ \textit{\@authorrole} \\ ~\\ \today}}
+~\\
+\begin{absolutelynopagebreak}
+\begingroup
+\setlength{\leftskip}{.5\textwidth}
+\parindent=0pt
+Respectfully submitted.
+\singlespacing
+\uline{/s/ \hfill}\\
+\@author \\
+\hspace*{1 em} \textit{Counsel of Record} \\
+\textsc{\@authorfirm}\\
+~\\
+\textit{\@authorrole}\\
+~\\
+\textsc{\printmonthyear}
+
+\endgroup
+\end{absolutelynopagebreak}
+
 \makeatother
 \newpage
 \section{Certificate of Compliance}

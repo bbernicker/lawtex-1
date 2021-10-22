@@ -2,11 +2,18 @@
 import re
 import subprocess, os
 
-os.chdir("/Users/brendanbernicker/Documents/GitHub/lawtex-1/Law Typesetting Program/")
+### TO-D0
+# Citation Parsing
+# Appendix Parsing [four or five hash signs should denote an appendix and they should get custom page numbers in the class file with cover pages etc.]
+# Create a conclusion item that gets automatically merged into the nonbreaking signature block environment.
+# Parse question presented if present
+# Be PDF/A compliant and add signatures for final filing
 
+#os.chdir("/Users/brendanbernicker/Documents/GitHub/lawtex-1/Law_Typesetting_Program/")
+os.chdir("L:\Github\lawtex-1\Law_Typesetting_Program/")
 
 #Load Markdown File
-file = open("Markdown Example.md")
+file = open("Constitutional Litigation Brief.md", encoding="utf8")
 file = file.read()
 lines = file.split('\n')
 
@@ -42,11 +49,31 @@ for i in range(len(lines)):
 
 # Convert Italics and Bold from Markdown to LaTeX
 def Rich_Text_Formatting(text):
+    text = re.sub(r'\*{4}([^\n]+)\*{4}', r'\\textsc{\1}', text)
     text = re.sub(r'\*{2}([^\n]+)\*{2}', r'\\textbf{\1}', text)
     text = re.sub(r'\*([^\n\*]+)\*', r'\\textit{\1}', text)
+    text = re.sub(r'\.\.\.', r'\\ldots ', text)
     return(text)
 
 doc = list(map(Rich_Text_Formatting, doc))
+
+
+# Replace Ordinals with Superscript
+def Ordinal_Replace(text):
+    text = re.sub(r'1st', r'1\\textsuperscript{st}', text)
+    text = re.sub(r'2nd', r'2\\textsuperscript{nd}', text)
+    text = re.sub(r'3rd', r'3\\textsuperscript{rd}', text)
+    text = re.sub(r'4th', r'4\\textsuperscript{th}', text)
+    text = re.sub(r'5th', r'5\\textsuperscript{th}', text)
+    text = re.sub(r'6th', r'6\\textsuperscript{th}', text)
+    text = re.sub(r'7th', r'7\\textsuperscript{th}', text)
+    text = re.sub(r'8th', r'8\\textsuperscript{th}', text)
+    text = re.sub(r'9th', r'9\\textsuperscript{th}', text)
+    text = re.sub(r'0th', r'0\\textsuperscript{th}', text)
+    return(text)
+
+doc = list(map(Ordinal_Replace, doc))
+
 
 # MARKDOWN TO LATEX FOOTNOTES
 # Extract Footnotes and their Corresponding Labels
@@ -83,6 +110,11 @@ type = [v for i,v in enumerate(type) if i not in note_removal]
 for note_num in range(len(note_label)):
     doc = [line.replace(str(note_label[note_num]), str(note_text[note_num])) for line in doc]
 
+
+# Citation Parser
+
+
+
 # Add Latex Syntax for Each Type of Line
 for i in range(len(doc)):
     if type[i] == "section":
@@ -100,7 +132,7 @@ doc = [s + "\n" for s in doc]
 # CREATE ACTUAL LATEX FILE
 
 # Load Base File (later automate front page generation and citations)
-with open('Base Latex Brief Which Python Adds To.tex','r') as brief_base:
+with open('Base Latex Brief Which Python Adds To.tex','r', encoding = "utf8") as brief_base:
     brief_latex = brief_base.read()
     brief_base.close()
 
@@ -108,7 +140,7 @@ with open('Base Latex Brief Which Python Adds To.tex','r') as brief_base:
 brief_latex = brief_latex.split('\n')
 brief_latex = brief_latex + doc + ["\makeendmatter \n", "\end{document}"]
 
-textfile = open("Brief to Compile.tex", "w")
+textfile = open("Brief to Compile.tex", "w", encoding = "utf8")
 for element in brief_latex:
     textfile.write(element + "\n")
 textfile.close()
