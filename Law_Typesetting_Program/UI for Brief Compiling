@@ -1,6 +1,30 @@
 # UI for Brief Compiling
-#Use TKinter (https://livebook.manning.com/book/the-quick-python-book-second-edition/chapter-16/24)
 
+
+import kivy
+kivy.require('2.0.0') # use current kivy version
+
+from kivy.app import App
+from kivy.lang import Builder
+from kivy.config import Config
+from kivy.core.window import Window
+
+Window.size = (400,130)
+
+from kivy.uix.boxlayout import BoxLayout
+
+class LblTxt(BoxLayout):
+    from kivy.properties import ObjectProperty
+    theTxt = ObjectProperty(None)
+
+class MyApp(App):
+
+    def build(self):
+        self.root = Builder.load_file('Law_Typesetting_Program\Kivy Form for Providing Brief Information.kv')
+        return self.root
+
+if __name__ == '__main__':
+    MyApp().run()
 
 # Supply Information (including jurisdiction, which will select relevant class and line numbers and such)
 

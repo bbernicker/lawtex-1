@@ -1,0 +1,530 @@
+No. 21-3
+
+In the
+
+Supreme Court of the United States
+Eric S. Schmitt, Attorney General of Missouri, et al.
+Petitioners,
+v.
+Reproductive Health Services of Planned Parenthood
+of the St. Louis Region, Inc.
+Respondent.
+On Writ of Certiorari to
+The United States Court of Appeals
+for the Eighth Circuit
+
+Brief for the Petitioners
+
+Brendan Bernicker
+Counsel of Record
+Yale Law School
+Con. Lit. Seminar
+127 Wall Street
+New Haven, CT 06510
+brendan.bernicker@yale.edu
+
+Counsel for the Petitioners
+Typeset with LegalPad
+
+Question Presented
+Whether a Missouri Law that prohibits medical providers from performing abortions
+when the provider knows that the sole reason for the abortion is a screening or test that
+indicates the unborn child has Down’s Syndrome (the Down’s Syndrome provision) is
+facially invalid under Roe v. Wade and Planned Parenthood of Southeastern Pennsylvania v.
+Casey or whether it is a valid, reasonable regulation of abortion.
+
+(i)
+
+Table of Contents
+Question Presented . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+i
+
+Table of Authorities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+Opinions Below . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+Jurisdiction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+Statement of the Case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+Summary of the Argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+Argument . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+A. Bans on specific categories of pre-viability abortions are constitutional if they
+can withstand strict scrutiny. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+B.
+
+Missouri’s reason ban withstands strict scrutiny. . . . . . . . . . . . . . . . .
+
+8
+
+1. The reason ban is valid if any potential application of the ban would
+withstand strict scrutiny. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+2. Missouri has a compelling interest in eradicating invidious discrimination
+against people living with Down’s Syndrome. . . . . . . . . . . . . . . . . . . .
+
+9
+
+3. The reason ban is narrowly tailored to advance Missouri’s compelling state
+interest. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+C. Alternatively, this Court should apply rational basis review and uphold the
+reason ban. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+(ii)
+
+Table of Authorities
+
+Cases
+
+Page
+
+Bob Jones University v. United States, 461 U. S. 574 (1983) . . . . . . . . . . . . . . 11
+Box v. Planned Parenthood of Indiana and Kentucky, Inc.,
+139 S.Ct. 1780 (2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3, 6
+Planned Parenthood of Southeastern Pennsylvania v. Casey,
+505 U.S. 833 (1992) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+passim
+
+Gonzalez v. Carhart, 550 U.S. 124 (2007) . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+Grutter v. Bollinger, 539 U.S. 306 (2003)
+
+7
+
+. . . . . . . . . . . . . . . . . . . . . . .
+
+Holder v. Humanitarian Law Project, 561 U.S. 1 (2010)
+
+. . . . . . . . . . . . . . .
+
+7
+
+Reproductive Health Services of Planned Parenthood of the St. Louis Region, Inc.
+v. Parson, 1 F.4th 552 (8th Cir. 2021) . . . . . . . . . . . . . . . . . . . . . . 2, 6
+Roberts v. U.S. Jaycees, 468 U.S. 609 (1984) . . . . . . . . . . . . . . . . . . . .
+
+9, 11
+
+Roe v. Wade, 410 U.S. 113 (1973) . . . . . . . . . . . . . . . . . . . . . . . 2, 3, 5, 6, 7
+United States v. Salerno, 481 U.S. 739 (1987) . . . . . . . . . . . . . . . . . .
+
+4, 8, 9
+
+Shaw v. Hunt, 517 U.S. 899 (1996) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+Williamson v. Lee Optical of Oklahoma Inc., 348 U.S. 483 (1955) . . . . . . . . . . . 13
+
+Statutes, Rules, and Constitutional Provisions
+Crime Victims with Disabilities Awareness Act
+112 Stat 2838 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Missouri Code Annotated
+Mo. Ann. Stat. § 188.038 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+United States Code
+28 U.S.C. § 1254(1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+(iii)
+
+Page
+
+Other Authorities
+
+Brief of Respondents in Planned Parenthood of Southeastern Pa. v. Casey, O. T.
+1991, Nos. 91–744, 91–902, p. 4, 1992 WL 12006423 . . . . . . . . . . . . . .
+
+6
+
+Journal of the House of Representatives of the State of Missouri, 100th General
+Assembly . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Summers v. Second Chance Homes of Fulton, LLC et al., 2:18-cv-04044-MDH,
+First Amended Complaint, ECF 53 (W.D. Mo. 2018) . . . . . . . . . . . . . . . 10
+Summers v. Second Chance Homes of Fulton, LLC et al., 2:18-cv-04044-MDH,
+Judgment Approving Wrongful Death Settlement, ECF 177 (W.D. Mo.
+2018) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+U.S. Department of Justice, Bureau of Justice Statistics, Crime Against Persons
+with Disabilities, 2009-2015: Statistical Tables, Pg. 4 . . . . . . . . . . . . . . 10
+U.S. Department of Justice, Federal Bureau of Investigation, Uniform Crime
+Report Hate Crime Statistics 2019 . . . . . . . . . . . . . . . . . . . . . . . . . 10
+United States v. Sherry Paulo, Case 2:19-CR-04090-BCW, Plea Agreement,
+ECF 14 (W.D. Mo. 2019) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+(iv)
+
+Opinions Below
+The opinion of the Court of Appeals is reported at 1 F.4th 552 (8th Cir. 2021). The
+opinions of the District Court are reported at 389 F. Sup. 3d 631 (W.D. Mo. 2019) (denying
+motion for preliminary injunction without prejudice as to the reason ban) and 408 F. Sup.
+3d 1049 (W.D. Mo. 2019) (preliminarily enjoining enforcement of the reason ban).
+
+Jurisdiction
+The judgment of the Court of Appeals was entered on June 9, 2021. The petition for a
+writ of certiorari was filed on June 30, 2021, and was granted on September 1, 2021. This
+Court’s jurisdiction rests on 28 U.S.C. § 1254(1).
+
+Statement of the Case
+On May 17, 2019, the Missouri General Assembly passed House Bill 126 (HB 126).
+Journal of the House of Representatives of the State of Missouri, 100th General Assembly,
+at 2800. HB 126 includes a provision that prohibits doctors from performing abortions when
+they know that the unborn child’s Down’s Syndrome is the sole reason for the abortion.
+Doctors who violate the prohibition are subject to civil penalties, including professional
+discipline.
+Pursuant to state law, certain members of the Missouri House of Representatives
+objected to the constitutionality of HB 126.
+
+Id. at 2798-800.
+
+A majority of their
+
+colleagues, however, believed the bill to be constitutional. The governor agreed and signed
+the bill into law on May 24, 2019. Id. at 2825-6.
+
+1
+
+On July 30, 2019, Reproductive Health Services (RHS) brought this case in the U.S.
+District Court for the Western District of Missouri. RHS moved for a preliminary injunction
+to stop the enforcement of the reason ban. The District Court initially denied the motion
+because RHS had not demonstrated that it was likely that any woman would seek an abortion
+solely because of a Down’s Syndrome diagnosis while the case was pending. But after RHS
+submitted a declaration which convinced the court that some RHS patients would likely
+be unable to obtain abortions because of the reason ban, the court preliminarily enjoined
+enforcement of the ban.
+The state defendants appealed to the United States Court of Appeals for the Eighth
+Circuit. The Eighth Circuit affirmed the preliminary injunction because it understood this
+Court’s precedents to have established that pre-viability bans on categories of abortions are
+per se unconstitutional. 1 F.4th at 561.
+
+Summary of the Argument
+Roe v. Wade searched the “penumbras” of the Bill of Rights and found a substantive
+due process right to terminate a pregnancy. Roe v. Wade, 410 U.S. 113, 152 (1973). It then
+held that this right is “fundamental,” such that laws which burden it are subject to strict
+scrutiny. Id. at 155. There are good reasons to question both of these holdings.
+But this Court need not reconsider Roe or Casey to uphold Missouri’s prohibition on
+terminating a pregnancy solely because the unborn child has Down Syndrome. Under this
+Court’s precedents, abortion bans are subject to strict scrutiny—a high bar, but not an
+insurmountable one. Bans that are narrowly tailored to advance a compelling state interest
+are constitutional, even if they substantially burden the right to terminate a pregnancy.
+2
+
+Missouri’s reason ban clears this high bar. Like more than a dozen other states, Missouri
+has prohibited doctors from performing abortions sought solely because of certain protected
+characteristics of the unborn child. These so-called “reason bans” build on Roe’s recognition
+that a woman does not have a right to have a pre-viability abortion “for whatever reason
+she alone chooses.” Id. at 153. As this Court recently noted, it has never before ruled on
+whether these bans on “sex-, race-, and disability-selective abortions” are constitutional.
+Box v. Planned Parenthood of Indiana and Kentucky, Inc., 139 S.Ct. 1780, 1792 (2019).
+They are. While Roe and Casey do not require women to offer any reason for seeking
+an abortion, it does not follow that a woman may have an abortion “for whatever reason she
+alone chooses.” Roe, 410 U.S. at 153. There are many areas of law where somebody is free
+to take an action for any reason except based on a protected characteristic. An employer
+can lay off an employee for no reason, but cannot lay off an employee because she becomes
+pregnant. A restaurant owner can serve or refuse to serve whoever they like, but they cannot
+refuse to serve people on account of their race. Similarly, a woman can choose to terminate
+her pregnancy prior to viability for no reason at all or for almost any reason; but, in Missouri,
+she cannot choose to abort an unborn child solely because of that child’s sex, race, or Down
+Syndrome diagnosis.
+The Eighth Circuit’s holding that pre-viability abortion bans are per se unconstitutional
+under this Court’s precedents is wrong. It rests on a single sentence of dicta from a minority
+opinion in Casey, and ignores the clear reasoning of both Casey and Roe Were it correct, the
+right to abortion would enjoy greater constitutional protection than the right to free speech
+
+3
+
+or the right to the equal protection of the law. This result is absurd, and this Court must not
+permit the Eighth Circuit’s judgment to stand.
+Instead, this Court should uphold Missouri’s reason ban against RHS’s facial challenge.
+Missouri has a compelling interest in eradicating invidious discrimination against people
+with Down’s Syndrome, and each abortion motivated solely by a Down’s Syndrome diagnosis
+is an instance of invidious discrimination. Missouri’s reason ban does not prohibit all previability abortions, all pre-viability abortions of unborn children with Down’s Syndrome, or
+even all pre-viability abortions motivated solely by a Down’s Syndrome diagnosis. Instead,
+it only makes doctors liable if they perform any abortion that they know was motivated solely
+by a Down’s Syndrome diagnosis.
+As explained below, the strict scrutiny analysis considers applications of the statute to a
+particular set of facts. Any given application of a statute is invalid if there is a less restrictive
+means of advancing the state’s compelling interests, but the entire statute is only invalid if
+there is no conceivable set of facts under which its application would be the least restrictive
+means of advancing the state’s interests. United States v. Salerno, 481 U.S. 739, 745 (1987).
+RHS has the burden of proving that the reason ban is facially invalid, and it has not carried
+that burden here.
+Finally, if the Court holds that Missouri’s reason ban cannot withstand strict scrutiny
+in any of its potential applications, the Court should nonetheless uphold the ban. In our
+federal system, courts must respect duly-enacted state legislation and may only strike down
+state laws that violate the Constitution. Even assuming that it is proper to read a right
+to terminate a pregnancy into the Due Process Clause, it does not follow that laws which
+4
+
+burden that right must be subjected to strict scrutiny. Missouri has a rational basis for its
+reason ban and, under a proper construction of the Fourteenth Amendment, that is enough
+for the ban to be constitutional.
+
+Argument
+A. Bans on specific categories of pre-viability abortions are constitutional if they can
+withstand strict scrutiny.
+Both Roe and Casey discussed the right to terminate a pregnancy as a fundamental right,
+and both subjected limitations on that right to strict scrutiny. Roe, 410 U.S. at 155; Casey,
+505 U.S. at 847. Both cases then considered two particular interests that states had in
+banning abortions generally: (1) protecting the health of pregnant women and (2) protecting
+the ‘potential life’ of unborn children. Roe, 410 U.S. at 154; Casey, 505 U.S. at 846. Roe
+held, and Casey assumed, that neither interest could support a ban on pre-viability abortions.
+Roe, 410 U.S. at 162-3; Casey, 505 U.S. at 857.
+Neither Roe nor Casey held that restrictions on abortion could be unconstitutional
+despite being narrowly tailored to advance compelling state interests. On the contrary, both
+affirmed that after viability, when the state has a compelling interest in protecting fetal life,
+states can ban nontherapeutic abortions entirely. Id. at 860. The limits that Roe and Casey
+found on states’ power to regulate and prohibit abortion before viability were grounded in
+the Court’s decision that “[b]efore viability, the State’s interests are not strong enough to
+support a prohibition of abortion or the imposition of a substantial obstacle to the woman’s
+
+5
+
+effective right to elect the procedure.” Id. at 846. This is strict scrutiny. Nothing less, but
+nothing more either.
+Of course, in Roe and Casey, the Court only ruled on the two state interests that were
+before it. Neither case claimed to dispose of all possible state interests that could be raised
+in any future litigation at any future time. Since Roe and Casey, this Court has not yet
+had occasion to consider whether other state interests in banning specific categories of
+pre-viability abortions are compelling, but it has never indicated that this inquiry would
+be foreclosed by Roe or Casey. On the contrary, this Court recently recognized that the
+constitutionality of reason bans remains an open question. Box, 139 S.Ct. at 1792.
+The Eight Circuit did not subject Missouri’s abortion ban to strict scrutiny. Instead, it
+held that bans on categories of pre-viability abortions are per se unconstitutional. Parson, 1
+F.4th at 561. That holding, like the respondents’ argument, rests almost entirely on a single
+sentence from Casey which says “[r]egardless of whether exceptions are made for particular
+circumstances, a State may not prohibit any woman from making the ultimate decision to
+terminate her pregnancy before viability.” Casey, 505 U.S. at 879 (O’Connor, Kennedy,
+Souter, JJ., joint opinion).
+There are three major problems with the Eighth Circuit’s opinion. First, Casey did not
+address bans on pre-viability abortions at all. The Pennsylvania statute at issue in Casey did
+contain a reason ban, but the Casey plaintiffs did not challenge it. See Brief of Respondents
+in Planned Parenthood of Southeastern Pa. v. Casey, O. T. 1991, Nos. 91–744, 91–902, p. 4,
+1992 WL 12006423 (noting that there was no challenge to reason ban). Because there was
+
+6
+
+no partial ban on pre-viability abortions before the Court in Casey, anything the Court may
+have said about those bans was dicta.
+Second, and relatedly, the sentence from Casey that the Eighth Circuit relied on is
+not from the opinion of the Court. It is from Section IV of the Joint Opinion of Justices
+O’Connor, Kennedy, and Souter, which no other justice joined. In Gonzalez, this Court
+assumed, without deciding, that the Joint Opinion’s statement accurately reflected the law,
+but it did so in dicta while upholding a ban on a partial-birth abortion procedure. Gonzalez v.
+Carhart, 550 U.S. 124, 146 (2007). The Eight Circuit cited Casey and Gonzalez as binding
+precedent establishing that bans which prevent any woman from deciding to terminate her
+pregnancy before viability are unconstitutional, but neither case supports that proposition.
+Third, the Eighth Circuit’s holding leads to absurd results. According the Eighth
+Circuit, bans on categories of abortions are in a weaker constitutional position than
+content-based bans on categories of speech.
+
+See, e.g., Holder v. Humanitarian Law
+
+Project, 561 U.S. 1 (2010) (upholding content-based ban on speech that withstood
+strict scrutiny). The Eighth Circuit treated bans on abortion as per se violations of the
+Fourteenth Amendment, but race discrimination by state agencies is only subject to strict
+scrutiny. Grutter v. Bollinger, 539 U.S. 306 (2003) (upholding a state university’s racially
+discriminatory policy because it withstood strict scrutiny). Whatever basis there may be
+for finding an implicit right to abortion in the Fourteenth Amendment, there is no possible
+basis for placing that right above the Fourteenth Amendment’s primary goal of eradicating
+the racial caste system that prevailed at its adoption. Roe and Casey subjected bans on
+
+7
+
+nontherapeutic pre-viability abortions to strict scrutiny, and the Eighth Circuit should have
+done the same.
+B.
+
+Missouri’s reason ban withstands strict scrutiny.
+Because the District Court and Eighth Circuit accepted RHS’s argument that reason
+
+bans are per se unconstitutional, RHS did not develop a record on which this Court could
+apply strict scrutiny and sustain a facial challenge. This alone is a sufficient reason for the
+Court to vacate the Eighth Circuit’s judgment and remand this case for further proceedings
+to determine whether Missouri’s statute withstands strict scrutiny. But the Court should
+go further and uphold Missouri’s reason ban because it is narrowly tailored to advance a
+compelling state interest.
+1.
+
+The reason ban is valid if any potential application of the ban would withstand strict
+scrutiny.
+
+This case arises in the context of a pre-enforcement facial challenge to a state statute.
+This Court has observed that a “facial challenge to a legislative Act is, of course, the most
+difficult challenge to mount successfully, since the challenger must establish that no set of
+circumstances exists under which the Act would be valid.” Salerno, 481 U.S. at 745. When
+that facial challenge is also brought prior to the enforcement of the act, those circumstances
+will necessarily be hypothetical.
+In assessing whether a statute is narrowly tailored, then, the unit of analysis is the
+application of that statute to a particular set of facts. Any given application of the statute
+is invalid if there is a less restrictive means of advancing the state’s compelling interests,
+
+8
+
+but the entire statute is only invalid if there is no conceivable set of facts under which its
+application would be the least restrictive means of advancing the state’s interests. Id.
+It is the challenger’s burden to prove facial invalidity. Id. RHS has not carried that
+burden here, and it will not be able to do so on remand because the reason ban is narrowly
+tailored to advance a compelling state interest.
+2. Missouri has a compelling interest in eradicating invidious discrimination against
+people living with Down’s Syndrome.
+In other contexts, this Court has recognized that states have a compelling interest in
+eradicating invidious discrimination and remedying the effects of past discrimination. See,
+e.g., Roberts v. U.S. Jaycees, 468 U.S. 609, 610 (1984) (eradicating gender discrimination);
+Shaw v. Hunt, 517 U.S. 899 (1996) (remedying the effects of past race discrimination).
+Missouri has a compelling interest in eradicating invidious discrimination against
+people living with Down’s Syndrome. People living with Down’s Syndrome have long faced
+significant invidious discrimination. They have been stigmatized, institutionalized, and
+even sterilized, and actors at all levels of government have been directly involved in their
+oppression.
+That oppression persists. For example, in 2016, Carl DeBrodie, a Missourian with
+Down’s Syndrome, was found dead in the home of two state contractors who worked
+at a residential facility for the disabled. One of the contractors, Sherry Paulo, admitted
+to bringing Carl to her home, confining him in a makeshift “jail cell” in her unfinished
+basement, depriving him of medicine he had been prescribed, and failing to intervene as he
+
+9
+
+died. United States v. Sherry Paulo, Case 2:19-CR-04090-BCW, Plea Agreement, ECF 14
+(W.D. Mo. 2019). She and her family then concealed Carl’s death for months by encasing
+his corpse in cement and hiding it in a storage locker. Id. at 2-4. The county later settled a
+wrongful death lawsuit which alleged that Ms. Paulo forced Carl and another intellectually
+disabled resident to “physically fight each other for the benefit and amusement of Defendant
+Paulo and her family.” Summers v. Second Chance Homes of Fulton, LLC et al., 2:18-cv04044-MDH, First Amended Complaint, ECF 53 (W.D. Mo. 2018); Summers v. Second
+Chance Homes of Fulton, LLC et al., 2:18-cv-04044-MDH, Judgment Approving Wrongful
+Death Settlement, ECF 177 (W.D. Mo. 2018). Carl allegedly broke six ribs in these fights.
+Summers Complaint.
+This is an extreme example, but it represents a broader issue. Since 1998, the U.S.
+Department of Justice has been required to track and report statistics about crimes against
+people with disabilities. Crime Victims with Disabilities Awareness Act, 112 Stat 2838.
+According to the most recent data, people living with cognitive disabilities are more
+than 350% more likely to be victims of violent crime than people who are not disabled.
+U.S. Department of Justice, Bureau of Justice Statistics, Crime Against Persons with
+Disabilities, 2009-2015: Statistical Tables, Pg. 4. The FBI’s most recent Uniform Crime
+Reports also show that the agency received more than 100 reports of hate crimes motivated
+by mental disability in 2019. U.S. Department of Justice, Federal Bureau of Investigation,
+Uniform Crime Report Hate Crime Statistics 2019.
+And of course, invidious discrimination does not always take the form of a hate crime
+or an act of physical violence. People living with Down’s Syndrome also experience social
+
+10
+
+prejudice and discrimination. This Court has long recognized a compelling state interest
+in preventing invidious discrimination by private parties. See, e.g., Bob Jones University v.
+United States, 461 U. S. 574, 602 (1983); Roberts, 468 U.S. at 610.
+3. The reason ban is narrowly tailored to advance Missouri’s compelling state interest.
+Each abortion that is performed solely because of a Down’s Syndrome diagnosis is an
+instance of invidious discrimination that the state has a compelling interest in eradicating.
+When the state permits licensed medical professionals to perform abortions premised
+solely on the idea that people with Down’s Syndrome should not be born, it stigmatizes
+Missourians living with Down’s Syndrome. As the legislature concluded, aborting “unborn
+children with Down[’s] Syndrome raises grave concerns for the lives of those who do live
+with disabilities. It sends a message of dwindling support for their unique challenges,
+fosters a false sense that disability is something that could have been avoidable, and is
+likely to increase the stigma associated with disability.” Mo. Ann. Stat. § 188.038.
+Consequently, Missouri could constitutionally prohibit all abortions motivated solely
+by a Down’s Syndrome diagnosis. But the ban Missouri adopted is narrower than that. If a
+woman seeks an abortion, and knows in her heart that a Down’s Syndrome diagnosis is the
+sole reason she is seeking that abortion, her doctor can still perform the procedure without
+incurring liability unless the doctor knows the patient’s motivations. Missouri’s reason ban
+also does not create any criminal liability, and it does not create any liability at all for the
+women who seek and obtain the prohibited abortions.
+
+11
+
+There is no way for Missouri to vindicate its legitimate interests without prohibiting at
+least some abortions motivated solely by a Down’s Syndrome diagnosis. The reason ban is
+therefore sufficiently narrowly tailored to survive a pre-enforcement facial challenge.
+C.
+
+Alternatively, this Court should apply rational basis review and uphold the reason ban.
+If the Court decides that there is no potential application of Missouri’s reason ban that
+
+could survive strict scrutiny, it should still uphold the ban. Even assuming that it is proper
+to read a right to terminate a pregnancy into the Due Process Clause, it does not follow that
+laws which burden that right must be subjected to strict scrutiny. Missouri has a rational
+basis for its reason ban and, under a proper construction of the Fourteenth Amendment, that
+is enough for the ban to be constitutional.
+Nothing in the text, history, or structure of the Constitution guarantees an individual
+right to abortion. “The States may, if they wish, permit abortion on demand, but the
+Constitution does not require them to do so. The permissibility of abortion, and the
+limitations upon it, are to be resolved like most important questions in our democracy: by
+citizens trying to persuade one another and then voting.” Casey, 505 U.S. at 979 (Scalia,
+J., concurring in the judgment in part and dissenting in part) (emphasis original).
+Our Constitution gives the courts an important role in our system of government, but
+it is not the starring role. The people, acting through their elected representatives, play
+the starring role in our great constitutional drama. When the people create new rights,
+either by statute or through constitutional amendments, the Court promotes and enables
+democratic self-government by enforcing those rights. When the Court creates new rights, it
+
+12
+
+undermines representative self-government and assumes for itself the role of deciding what
+laws we ought to live by.
+These concerns are especially acute when federal courts invalidate state laws. The
+states are different from one another in innumerable ways, and they are allowed to govern
+themselves differently, subject to specific limitations prescribed in the Constitution.
+Because there is no such prescribed limitation on states’ power to regulate abortion, the
+people of each state are free to weigh the costs and benefits of abortion regulations and
+make their own policy judgments. Courts must respected those judgments if there is a
+rational basis for them. See generally Williamson v. Lee Optical of Oklahoma Inc., 348 U.S.
+483 (1955).
+Casey acknowledged that the state interest in protecting fetal life is legitimate, though
+not compelling, at all stages of pregnancy. Id. at 883. There can be no question that previability bans on abortion are rationally related to the legitimate interest in protecting fetal
+life. That is all that rational basis review requires. See generally Williamson.
+Each time this Court invalidates a state law that the Constitution permits, it violates
+our social compact and undermines the foundations of our democracy. Stare decisis is no
+justification for this kind of usurpation. Democratic self-government is a fundamental value.
+Federalism is a fundamental value. The rule of law is a fundamental value. Abortion? That
+is for the people to decide.
+
+13
+
+Conclusion
+For the foregoing reasons, the judgment of the Court of Appeals should be reversed or,
+in the alternative, the judgment should be vacated and this case remanded with instructions
+to consider whether Missouri’s reason ban withstands strict scrutiny.
+
+Respectfully submitted.
+/s/
+Brendan Bernicker
+Counsel of Record
+Yale Law School
+Con. Lit. Seminar
+Counsel for the Petitioners
+October 2021
+
+Note: This brief was formatted and typeset using LegalPad.
+
+LegalPad is a software
+
+program that I have been developing in my free time to help lawyers create better-looking
+documents. Users can write without worrying about formatting or blue booking, and
+the software automatically formats the document in a way that both complies with the
+applicable court rules and reflects principles of good typography and page layout. The
+software also formats citations, generates the tables of contents and authorities, and
+completes any necessary certificates of compliance or service. There is not yet a publicly
+available version of the software, but it is far enough along that I decided to use it to format
+this brief. I hope that is not a problem!
+
+14
+
+
